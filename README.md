@@ -1,9 +1,5 @@
 # EcSops
 
-Welcome to the **EcSops** repository! This project contains a collection of Python scripts, automated Standard Operating Procedures (SOPs), and SQL queries used for managing operational workflows, lead transfers, customer service interactions, and data reporting.
-
----
-
 ## 📁 Project Structure
 
 This project is organized into sub-domains to keep code separated by functionality:
