@@ -1,0 +1,68 @@
+2026-03-13 00:42:25,132 - INFO - Start --> 2026-03-13 00:42:25.132680
+2026-03-13 00:42:25,134 - INFO - Total rows in CSV: 42
+2026-03-13 00:42:25,296 - INFO - 
+Validating rows...
+2026-03-13 00:42:25,328 - INFO -   [SKIP] Row 2 (Adesh Gupta): no_active_leads_found for rm_id=2498
+2026-03-13 00:42:25,361 - INFO -   [SKIP] Row 3 (Farid Khoja): no_active_leads_found for rm_id=2587
+2026-03-13 00:42:25,392 - INFO -   [SKIP] Row 4 (Kirti Patil): no_active_leads_found for rm_id=2636
+2026-03-13 00:42:25,423 - INFO -   [OK] Row 5 (Meenakshi Likhare) -> akil@infinityservicesindia.com | Leads found: 1
+2026-03-13 00:42:25,460 - INFO -   [OK] Row 6 (Meenakshi Likhare) -> akil@infinityservicesindia.com | Leads found: 1
+2026-03-13 00:42:25,493 - INFO -   [OK] Row 7 (Meenakshi Likhare) -> akil@infinityservicesindia.com | Leads found: 1
+2026-03-13 00:42:25,521 - INFO -   [SKIP] Row 8 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,553 - INFO -   [SKIP] Row 9 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,586 - INFO -   [SKIP] Row 10 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,620 - INFO -   [SKIP] Row 11 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,658 - INFO -   [SKIP] Row 12 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,692 - INFO -   [SKIP] Row 13 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,728 - INFO -   [SKIP] Row 14 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,758 - INFO -   [SKIP] Row 15 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,795 - INFO -   [SKIP] Row 16 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,830 - INFO -   [SKIP] Row 17 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,867 - INFO -   [SKIP] Row 18 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,916 - INFO -   [SKIP] Row 19 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:25,960 - INFO -   [SKIP] Row 20 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:26,002 - INFO -   [SKIP] Row 21 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:26,047 - INFO -   [SKIP] Row 22 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:26,149 - INFO -   [SKIP] Row 23 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:26,195 - INFO -   [SKIP] Row 24 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:26,221 - INFO -   [SKIP] Row 25 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:26,247 - INFO -   [SKIP] Row 26 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:26,275 - INFO -   [SKIP] Row 27 (Mona Nagdev): no_active_leads_found for rm_id=2713
+2026-03-13 00:42:26,305 - INFO -   [SKIP] Row 28 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,338 - INFO -   [SKIP] Row 29 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,369 - INFO -   [SKIP] Row 30 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,443 - INFO -   [SKIP] Row 31 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,471 - INFO -   [SKIP] Row 32 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,502 - INFO -   [SKIP] Row 33 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,528 - INFO -   [SKIP] Row 34 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,552 - INFO -   [SKIP] Row 35 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,577 - INFO -   [SKIP] Row 36 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,606 - INFO -   [SKIP] Row 37 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,634 - INFO -   [SKIP] Row 38 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,657 - INFO -   [SKIP] Row 39 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,687 - INFO -   [SKIP] Row 40 (Punit Purohit): no_active_leads_found for rm_id=2822
+2026-03-13 00:42:26,712 - INFO -   [SKIP] Row 41 (Sumeet Naidu): no_active_leads_found for rm_id=2461
+2026-03-13 00:42:26,737 - INFO -   [SKIP] Row 42 (Sumeet Naidu): no_active_leads_found for rm_id=2461
+2026-03-13 00:42:26,764 - INFO -   [SKIP] Row 43 (Sumeet Naidu): no_active_leads_found for rm_id=2461
+2026-03-13 00:42:26,764 - INFO - 
+Valid CSV rows : 3
+2026-03-13 00:42:26,764 - INFO - Skipped rows   : 39
+2026-03-13 00:42:26,764 - INFO - Total leads    : 3
+2026-03-13 00:42:26,765 - INFO - Audit file     : E:\\EcSops\\logs\audit_20260313_004225.csv
+2026-03-13 00:42:33,207 - INFO - 
+Processing...
+2026-03-13 00:42:33,207 - INFO - 
+[Meenakshi Likhare] -> new_rm_id=2454 | 1 leads
+2026-03-13 00:42:33,282 - INFO -    [1] Lead 1130930 transferred
+2026-03-13 00:42:33,283 - INFO - 
+[Meenakshi Likhare] -> new_rm_id=2454 | 1 leads
+2026-03-13 00:42:33,330 - INFO -    [2] Lead 1130930 transferred
+2026-03-13 00:42:33,330 - INFO - 
+[Meenakshi Likhare] -> new_rm_id=2454 | 1 leads
+2026-03-13 00:42:33,379 - INFO -    [3] Lead 1130930 transferred
+2026-03-13 00:42:33,380 - INFO - 
+=======================================================
+2026-03-13 00:42:33,381 - INFO - Transferred : 3
+2026-03-13 00:42:33,381 - INFO - Skipped rows: 39
+2026-03-13 00:42:33,382 - INFO - Audit file  : E:\\EcSops\\logs\audit_20260313_004225.csv
+2026-03-13 00:42:33,382 - INFO - End --> 2026-03-13 00:42:33.382300

@@ -1,0 +1,392 @@
+2026-03-12 18:28:07,155 - INFO - Start --> 2026-03-12 18:28:07.155477
+2026-03-12 18:28:07,156 - INFO - Total rows in CSV: 382
+2026-03-12 18:28:07,302 - INFO - 
+Validating rows...
+2026-03-12 18:28:07,329 - INFO -   [SKIP] Row 2 (Ajaykumar Maurya): no_active_leads_found for rm_id=2180
+2026-03-12 18:28:07,360 - INFO -   [SKIP] Row 3 (Ajaykumar Maurya): no_active_leads_found for rm_id=2180
+2026-03-12 18:28:07,386 - INFO -   [SKIP] Row 4 (Ayaaz Chanded): no_active_leads_found for rm_id=2446
+2026-03-12 18:28:07,426 - INFO -   [SKIP] Row 5 (Ayaaz Chanded): no_active_leads_found for rm_id=2446
+2026-03-12 18:28:07,447 - INFO -   [SKIP] Row 6 (Ayaaz Chanded): no_active_leads_found for rm_id=2446
+2026-03-12 18:28:07,486 - INFO -   [SKIP] Row 7 (Ayaaz Chanded): no_active_leads_found for rm_id=2446
+2026-03-12 18:28:07,514 - INFO -   [SKIP] Row 8 (Ayaaz Chanded): no_active_leads_found for rm_id=2446
+2026-03-12 18:28:07,540 - INFO -   [SKIP] Row 9 (Ayaaz Chanded): no_active_leads_found for rm_id=2446
+2026-03-12 18:28:07,567 - INFO -   [SKIP] Row 10 (Ayaaz Chanded): no_active_leads_found for rm_id=2446
+2026-03-12 18:28:07,594 - INFO -   [SKIP] Row 11 (Gayathri Vennamkoat): no_active_leads_found for rm_id=1371
+2026-03-12 18:28:07,636 - INFO -   [SKIP] Row 12 (Gayathri Vennamkoat): no_active_leads_found for rm_id=1371
+2026-03-12 18:28:07,662 - INFO -   [SKIP] Row 13 (Gayathri Vennamkoat): no_active_leads_found for rm_id=1371
+2026-03-12 18:28:07,691 - INFO -   [SKIP] Row 14 (Gayathri Vennamkoat): no_active_leads_found for rm_id=1371
+2026-03-12 18:28:07,728 - INFO -   [SKIP] Row 15 (Gayathri Vennamkoat): no_active_leads_found for rm_id=1371
+2026-03-12 18:28:07,753 - INFO -   [SKIP] Row 16 (Irshad Khan): no_active_leads_found for rm_id=2182
+2026-03-12 18:28:07,778 - INFO -   [SKIP] Row 17 (Irshad Khan): no_active_leads_found for rm_id=2182
+2026-03-12 18:28:07,798 - INFO -   [SKIP] Row 18 (Irshad Khan): no_active_leads_found for rm_id=2182
+2026-03-12 18:28:07,837 - INFO -   [SKIP] Row 19 (Irshad Khan): no_active_leads_found for rm_id=2182
+2026-03-12 18:28:07,858 - INFO -   [SKIP] Row 20 (Sumit Patil): no_active_leads_found for rm_id=2624
+2026-03-12 18:28:07,888 - INFO -   [SKIP] Row 21 (Sumit Patil): no_active_leads_found for rm_id=2624
+2026-03-12 18:28:07,917 - INFO -   [SKIP] Row 22 (Sumit Patil): no_active_leads_found for rm_id=2624
+2026-03-12 18:28:07,943 - INFO -   [SKIP] Row 23 (Sumit Patil): no_active_leads_found for rm_id=2624
+2026-03-12 18:28:07,976 - INFO -   [SKIP] Row 24 (Sumit Patil): no_active_leads_found for rm_id=2624
+2026-03-12 18:28:07,999 - INFO -   [SKIP] Row 25 (Sumit Patil): no_active_leads_found for rm_id=2624
+2026-03-12 18:28:08,025 - INFO -   [SKIP] Row 26 (Sumit Patil): no_active_leads_found for rm_id=2624
+2026-03-12 18:28:08,053 - INFO -   [SKIP] Row 27 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,081 - INFO -   [SKIP] Row 28 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,136 - INFO -   [SKIP] Row 29 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,160 - INFO -   [SKIP] Row 30 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,190 - INFO -   [SKIP] Row 31 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,218 - INFO -   [SKIP] Row 32 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,252 - INFO -   [SKIP] Row 33 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,277 - INFO -   [SKIP] Row 34 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,302 - INFO -   [SKIP] Row 35 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,329 - INFO -   [SKIP] Row 36 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,361 - INFO -   [SKIP] Row 37 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,384 - INFO -   [SKIP] Row 38 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,404 - INFO -   [SKIP] Row 39 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,430 - INFO -   [SKIP] Row 40 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,453 - INFO -   [SKIP] Row 41 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,477 - INFO -   [SKIP] Row 42 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,501 - INFO -   [SKIP] Row 43 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,532 - INFO -   [SKIP] Row 44 (Abhishek Mewati): no_active_leads_found for rm_id=2720
+2026-03-12 18:28:08,575 - INFO -   [SKIP] Row 45 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,600 - INFO -   [SKIP] Row 46 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,622 - INFO -   [SKIP] Row 47 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,648 - INFO -   [SKIP] Row 48 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,677 - INFO -   [SKIP] Row 49 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,706 - INFO -   [SKIP] Row 50 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,732 - INFO -   [SKIP] Row 51 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,753 - INFO -   [SKIP] Row 52 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,774 - INFO -   [SKIP] Row 53 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,800 - INFO -   [SKIP] Row 54 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,821 - INFO -   [SKIP] Row 55 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,848 - INFO -   [SKIP] Row 56 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,868 - INFO -   [SKIP] Row 57 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,889 - INFO -   [SKIP] Row 58 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,911 - INFO -   [SKIP] Row 59 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,939 - INFO -   [SKIP] Row 60 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,960 - INFO -   [SKIP] Row 61 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:08,985 - INFO -   [SKIP] Row 62 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,007 - INFO -   [SKIP] Row 63 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,032 - INFO -   [SKIP] Row 64 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,057 - INFO -   [SKIP] Row 65 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,081 - INFO -   [SKIP] Row 66 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,102 - INFO -   [SKIP] Row 67 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,122 - INFO -   [SKIP] Row 68 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,153 - INFO -   [SKIP] Row 69 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,173 - INFO -   [SKIP] Row 70 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,194 - INFO -   [SKIP] Row 71 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,219 - INFO -   [SKIP] Row 72 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,247 - INFO -   [SKIP] Row 73 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,267 - INFO -   [SKIP] Row 74 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,301 - INFO -   [SKIP] Row 75 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,330 - INFO -   [SKIP] Row 76 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,360 - INFO -   [SKIP] Row 77 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,381 - INFO -   [SKIP] Row 78 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,403 - INFO -   [SKIP] Row 79 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,427 - INFO -   [SKIP] Row 80 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,468 - INFO -   [SKIP] Row 81 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,492 - INFO -   [SKIP] Row 82 (Ajay Tamang): no_active_leads_found for rm_id=2492
+2026-03-12 18:28:09,514 - INFO -   [SKIP] Row 83 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:09,536 - INFO -   [SKIP] Row 84 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:09,563 - INFO -   [SKIP] Row 85 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:09,587 - INFO -   [SKIP] Row 86 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:09,612 - INFO -   [SKIP] Row 87 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:09,635 - INFO -   [SKIP] Row 88 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:09,663 - INFO -   [SKIP] Row 89 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,689 - INFO -   [SKIP] Row 90 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,716 - INFO -   [SKIP] Row 91 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,743 - INFO -   [SKIP] Row 92 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,803 - INFO -   [SKIP] Row 93 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,824 - INFO -   [SKIP] Row 94 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,860 - INFO -   [SKIP] Row 95 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,880 - INFO -   [SKIP] Row 96 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,900 - INFO -   [SKIP] Row 97 (Aniruddh Tambe): no_active_leads_found for rm_id=2404
+2026-03-12 18:28:09,921 - INFO -   [SKIP] Row 98 (Ashwajit Kasare): no_active_leads_found for rm_id=803
+2026-03-12 18:28:09,946 - INFO -   [SKIP] Row 99 (Ashwajit Kasare): no_active_leads_found for rm_id=803
+2026-03-12 18:28:09,972 - INFO -   [SKIP] Row 100 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:09,994 - INFO -   [SKIP] Row 101 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,015 - INFO -   [SKIP] Row 102 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,038 - INFO -   [SKIP] Row 103 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,068 - INFO -   [SKIP] Row 104 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,095 - INFO -   [SKIP] Row 105 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,120 - INFO -   [SKIP] Row 106 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,151 - INFO -   [SKIP] Row 107 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,186 - INFO -   [SKIP] Row 108 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,211 - INFO -   [SKIP] Row 109 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,234 - INFO -   [SKIP] Row 110 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,259 - INFO -   [SKIP] Row 111 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,287 - INFO -   [SKIP] Row 112 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,310 - INFO -   [SKIP] Row 113 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,341 - INFO -   [SKIP] Row 114 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,376 - INFO -   [SKIP] Row 115 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,413 - INFO -   [SKIP] Row 116 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,435 - INFO -   [SKIP] Row 117 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,457 - INFO -   [SKIP] Row 118 (Gajendra Parmar): no_active_leads_found for rm_id=2655
+2026-03-12 18:28:10,492 - INFO -   [SKIP] Row 119 (komal Bhosale): no_active_leads_found for rm_id=2606
+2026-03-12 18:28:10,516 - INFO -   [SKIP] Row 120 (komal Bhosale): no_active_leads_found for rm_id=2606
+2026-03-12 18:28:10,538 - INFO -   [SKIP] Row 121 (Krishna Chauhan): no_active_leads_found for rm_id=790
+2026-03-12 18:28:10,560 - INFO -   [SKIP] Row 122 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,590 - INFO -   [SKIP] Row 123 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,613 - INFO -   [SKIP] Row 124 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,638 - INFO -   [SKIP] Row 125 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,659 - INFO -   [SKIP] Row 126 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,690 - INFO -   [SKIP] Row 127 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,716 - INFO -   [SKIP] Row 128 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,739 - INFO -   [SKIP] Row 129 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,764 - INFO -   [SKIP] Row 130 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,789 - INFO -   [SKIP] Row 131 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,815 - INFO -   [SKIP] Row 132 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,842 - INFO -   [SKIP] Row 133 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,867 - INFO -   [SKIP] Row 134 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,892 - INFO -   [SKIP] Row 135 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,915 - INFO -   [SKIP] Row 136 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,970 - INFO -   [SKIP] Row 137 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:10,995 - INFO -   [SKIP] Row 138 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:11,021 - INFO -   [SKIP] Row 139 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:11,044 - INFO -   [SKIP] Row 140 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:11,067 - INFO -   [SKIP] Row 141 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:11,092 - INFO -   [SKIP] Row 142 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:11,126 - INFO -   [SKIP] Row 143 (Kunal Gaikwad): no_active_leads_found for rm_id=2632
+2026-03-12 18:28:11,150 - INFO -   [SKIP] Row 144 (Mahesh Borakhade): no_active_leads_found for rm_id=2401
+2026-03-12 18:28:11,175 - INFO -   [SKIP] Row 145 (Mahesh Borakhade): no_active_leads_found for rm_id=2401
+2026-03-12 18:28:11,208 - INFO -   [SKIP] Row 146 (Mahesh Borakhade): no_active_leads_found for rm_id=2401
+2026-03-12 18:28:11,235 - INFO -   [SKIP] Row 147 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,272 - INFO -   [SKIP] Row 148 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,302 - INFO -   [SKIP] Row 149 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,331 - INFO -   [SKIP] Row 150 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,357 - INFO -   [SKIP] Row 151 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,381 - INFO -   [SKIP] Row 152 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,408 - INFO -   [SKIP] Row 153 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,434 - INFO -   [SKIP] Row 154 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,458 - INFO -   [SKIP] Row 155 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,483 - INFO -   [SKIP] Row 156 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,522 - INFO -   [SKIP] Row 157 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,547 - INFO -   [SKIP] Row 158 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,570 - INFO -   [SKIP] Row 159 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,603 - INFO -   [SKIP] Row 160 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,631 - INFO -   [SKIP] Row 161 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,655 - INFO -   [SKIP] Row 162 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,685 - INFO -   [SKIP] Row 163 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,715 - INFO -   [SKIP] Row 164 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,740 - INFO -   [SKIP] Row 165 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,765 - INFO -   [SKIP] Row 166 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,791 - INFO -   [SKIP] Row 167 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,817 - INFO -   [SKIP] Row 168 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,839 - INFO -   [SKIP] Row 169 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,871 - INFO -   [SKIP] Row 170 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,894 - INFO -   [SKIP] Row 171 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,925 - INFO -   [SKIP] Row 172 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,951 - INFO -   [SKIP] Row 173 (Mehek Khan): no_active_leads_found for rm_id=2682
+2026-03-12 18:28:11,976 - INFO -   [SKIP] Row 174 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,011 - INFO -   [SKIP] Row 175 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,038 - INFO -   [SKIP] Row 176 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,065 - INFO -   [SKIP] Row 177 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,087 - INFO -   [SKIP] Row 178 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,115 - INFO -   [SKIP] Row 179 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,152 - INFO -   [SKIP] Row 180 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,179 - INFO -   [SKIP] Row 181 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,209 - INFO -   [SKIP] Row 182 (Nikhil Patil): no_active_leads_found for rm_id=2684
+2026-03-12 18:28:12,280 - INFO -   [SKIP] Row 183 (Omkar  Khade): no_active_leads_found for rm_id=2552
+2026-03-12 18:28:12,324 - INFO -   [SKIP] Row 184 (Omkar  Khade): no_active_leads_found for rm_id=2552
+2026-03-12 18:28:12,351 - INFO -   [SKIP] Row 185 (Omkar  Khade): no_active_leads_found for rm_id=2552
+2026-03-12 18:28:12,376 - INFO -   [SKIP] Row 186 (Omkar  Khade): no_active_leads_found for rm_id=2552
+2026-03-12 18:28:12,402 - INFO -   [SKIP] Row 187 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,426 - INFO -   [SKIP] Row 188 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,460 - INFO -   [SKIP] Row 189 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,484 - INFO -   [SKIP] Row 190 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,506 - INFO -   [SKIP] Row 191 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,532 - INFO -   [SKIP] Row 192 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,553 - INFO -   [SKIP] Row 193 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,577 - INFO -   [SKIP] Row 194 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,602 - INFO -   [SKIP] Row 195 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,636 - INFO -   [SKIP] Row 196 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,658 - INFO -   [SKIP] Row 197 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,686 - INFO -   [SKIP] Row 198 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,717 - INFO -   [SKIP] Row 199 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,768 - INFO -   [SKIP] Row 200 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,809 - INFO -   [SKIP] Row 201 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,836 - INFO -   [SKIP] Row 202 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,865 - INFO -   [SKIP] Row 203 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,891 - INFO -   [SKIP] Row 204 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,914 - INFO -   [SKIP] Row 205 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,939 - INFO -   [SKIP] Row 206 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,965 - INFO -   [SKIP] Row 207 (Piyush Sharma): no_active_leads_found for rm_id=2631
+2026-03-12 18:28:12,991 - INFO -   [OK] Row 208 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 47
+2026-03-12 18:28:13,017 - INFO -   [OK] Row 209 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 3
+2026-03-12 18:28:13,055 - INFO -   [OK] Row 210 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 53
+2026-03-12 18:28:13,085 - INFO -   [OK] Row 211 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 5
+2026-03-12 18:28:13,110 - INFO -   [OK] Row 212 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 54
+2026-03-12 18:28:13,141 - INFO -   [OK] Row 213 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 9
+2026-03-12 18:28:13,163 - INFO -   [OK] Row 214 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,186 - INFO -   [OK] Row 215 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 19
+2026-03-12 18:28:13,207 - INFO -   [OK] Row 216 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,235 - INFO -   [OK] Row 217 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 76
+2026-03-12 18:28:13,269 - INFO -   [OK] Row 218 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 13
+2026-03-12 18:28:13,299 - INFO -   [OK] Row 219 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 180
+2026-03-12 18:28:13,327 - INFO -   [OK] Row 220 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:13,359 - INFO -   [OK] Row 221 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,384 - INFO -   [OK] Row 222 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 207
+2026-03-12 18:28:13,407 - INFO -   [OK] Row 223 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 10
+2026-03-12 18:28:13,435 - INFO -   [OK] Row 224 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,460 - INFO -   [OK] Row 225 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,483 - INFO -   [OK] Row 226 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,505 - INFO -   [OK] Row 227 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,527 - INFO -   [OK] Row 228 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,564 - INFO -   [OK] Row 229 (Sameera Khatib) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,592 - INFO -   [SKIP] Row 230 (Sandesh Pote): no_active_leads_found for rm_id=2406
+2026-03-12 18:28:13,618 - INFO -   [SKIP] Row 231 (Sandesh Pote): no_active_leads_found for rm_id=2406
+2026-03-12 18:28:13,643 - INFO -   [SKIP] Row 232 (Sandesh Pote): no_active_leads_found for rm_id=2406
+2026-03-12 18:28:13,665 - INFO -   [SKIP] Row 233 (Sandesh Pote): no_active_leads_found for rm_id=2406
+2026-03-12 18:28:13,691 - INFO -   [SKIP] Row 234 (Sandesh Pote): no_active_leads_found for rm_id=2406
+2026-03-12 18:28:13,713 - INFO -   [SKIP] Row 235 (Sanket  Jadhav): no_active_leads_found for rm_id=2583
+2026-03-12 18:28:13,740 - INFO -   [SKIP] Row 236 (Sanket  Jadhav): no_active_leads_found for rm_id=2583
+2026-03-12 18:28:13,776 - INFO -   [SKIP] Row 237 (Shireen Mubeen Saudagar): no_active_leads_found for rm_id=756
+2026-03-12 18:28:13,797 - INFO -   [OK] Row 238 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 3
+2026-03-12 18:28:13,820 - INFO -   [OK] Row 239 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 6
+2026-03-12 18:28:13,842 - INFO -   [OK] Row 240 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 32
+2026-03-12 18:28:13,870 - INFO -   [OK] Row 241 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:13,896 - INFO -   [OK] Row 242 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 6
+2026-03-12 18:28:13,916 - INFO -   [OK] Row 243 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 7
+2026-03-12 18:28:13,941 - INFO -   [OK] Row 244 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:13,970 - INFO -   [OK] Row 245 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 32
+2026-03-12 18:28:13,991 - INFO -   [OK] Row 246 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:14,013 - INFO -   [OK] Row 247 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 32
+2026-03-12 18:28:14,034 - INFO -   [OK] Row 248 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 5
+2026-03-12 18:28:14,064 - INFO -   [OK] Row 249 (Vidya Kadam) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:14,099 - INFO -   [OK] Row 250 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 180
+2026-03-12 18:28:14,121 - INFO -   [OK] Row 251 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 10
+2026-03-12 18:28:14,146 - INFO -   [OK] Row 252 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:14,173 - INFO -   [OK] Row 253 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 20
+2026-03-12 18:28:14,194 - INFO -   [OK] Row 254 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:14,220 - INFO -   [OK] Row 255 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 106
+2026-03-12 18:28:14,250 - INFO -   [OK] Row 256 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 23
+2026-03-12 18:28:14,277 - INFO -   [OK] Row 257 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:14,308 - INFO -   [OK] Row 258 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 6
+2026-03-12 18:28:14,335 - INFO -   [OK] Row 259 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 4
+2026-03-12 18:28:14,360 - INFO -   [OK] Row 260 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:14,394 - INFO -   [OK] Row 261 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 111
+2026-03-12 18:28:14,442 - INFO -   [OK] Row 262 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 23
+2026-03-12 18:28:14,477 - INFO -   [OK] Row 263 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 34
+2026-03-12 18:28:14,505 - INFO -   [OK] Row 264 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 12
+2026-03-12 18:28:14,529 - INFO -   [OK] Row 265 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 3
+2026-03-12 18:28:14,554 - INFO -   [OK] Row 266 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:14,583 - INFO -   [OK] Row 267 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 9
+2026-03-12 18:28:14,609 - INFO -   [OK] Row 268 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:14,635 - INFO -   [OK] Row 269 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 465
+2026-03-12 18:28:14,659 - INFO -   [OK] Row 270 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 3
+2026-03-12 18:28:14,689 - INFO -   [OK] Row 271 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:14,715 - INFO -   [OK] Row 272 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 4
+2026-03-12 18:28:14,765 - INFO -   [OK] Row 273 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 419
+2026-03-12 18:28:14,800 - INFO -   [OK] Row 274 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 29
+2026-03-12 18:28:14,828 - INFO -   [OK] Row 275 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 3
+2026-03-12 18:28:14,849 - INFO -   [OK] Row 276 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:14,879 - INFO -   [OK] Row 277 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 8
+2026-03-12 18:28:14,903 - INFO -   [OK] Row 278 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:14,926 - INFO -   [OK] Row 279 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 6
+2026-03-12 18:28:14,951 - INFO -   [OK] Row 280 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:14,982 - INFO -   [OK] Row 281 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,005 - INFO -   [OK] Row 282 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,031 - INFO -   [OK] Row 283 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 11
+2026-03-12 18:28:15,054 - INFO -   [OK] Row 284 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 12
+2026-03-12 18:28:15,082 - INFO -   [OK] Row 285 (Vivek Sarode) -> pravin.chijwani@equentis.com | Leads found: 4
+2026-03-12 18:28:15,111 - INFO -   [OK] Row 286 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 18
+2026-03-12 18:28:15,135 - INFO -   [OK] Row 287 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 159
+2026-03-12 18:28:15,162 - INFO -   [OK] Row 288 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 8
+2026-03-12 18:28:15,191 - INFO -   [OK] Row 289 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:15,214 - INFO -   [OK] Row 290 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 35
+2026-03-12 18:28:15,237 - INFO -   [OK] Row 291 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 77
+2026-03-12 18:28:15,262 - INFO -   [OK] Row 292 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:15,287 - INFO -   [OK] Row 293 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 28
+2026-03-12 18:28:15,309 - INFO -   [OK] Row 294 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,330 - INFO -   [OK] Row 295 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,354 - INFO -   [OK] Row 296 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,378 - INFO -   [OK] Row 297 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,407 - INFO -   [OK] Row 298 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 168
+2026-03-12 18:28:15,436 - INFO -   [OK] Row 299 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 321
+2026-03-12 18:28:15,461 - INFO -   [OK] Row 300 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 11
+2026-03-12 18:28:15,492 - INFO -   [OK] Row 301 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:15,519 - INFO -   [OK] Row 302 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,544 - INFO -   [OK] Row 303 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 2
+2026-03-12 18:28:15,567 - INFO -   [OK] Row 304 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,594 - INFO -   [OK] Row 305 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 1
+2026-03-12 18:28:15,622 - INFO -   [OK] Row 306 (Zarin Pathan) -> pravin.chijwani@equentis.com | Leads found: 6
+2026-03-12 18:28:15,645 - INFO -   [SKIP] Row 307 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,667 - INFO -   [SKIP] Row 308 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,699 - INFO -   [SKIP] Row 309 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,721 - INFO -   [SKIP] Row 310 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,749 - INFO -   [SKIP] Row 311 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,773 - INFO -   [SKIP] Row 312 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,810 - INFO -   [SKIP] Row 313 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,833 - INFO -   [SKIP] Row 314 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,857 - INFO -   [SKIP] Row 315 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,888 - INFO -   [SKIP] Row 316 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,914 - INFO -   [SKIP] Row 317 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,946 - INFO -   [SKIP] Row 318 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:15,968 - INFO -   [SKIP] Row 319 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,003 - INFO -   [SKIP] Row 320 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,028 - INFO -   [SKIP] Row 321 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,049 - INFO -   [SKIP] Row 322 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,073 - INFO -   [SKIP] Row 323 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,105 - INFO -   [SKIP] Row 324 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,126 - INFO -   [SKIP] Row 325 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,153 - INFO -   [SKIP] Row 326 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,173 - INFO -   [SKIP] Row 327 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,209 - INFO -   [SKIP] Row 328 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,234 - INFO -   [SKIP] Row 329 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,256 - INFO -   [SKIP] Row 330 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,280 - INFO -   [SKIP] Row 331 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,310 - INFO -   [SKIP] Row 332 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,339 - INFO -   [SKIP] Row 333 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,360 - INFO -   [SKIP] Row 334 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,386 - INFO -   [SKIP] Row 335 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,414 - INFO -   [SKIP] Row 336 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,437 - INFO -   [SKIP] Row 337 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,463 - INFO -   [SKIP] Row 338 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,486 - INFO -   [SKIP] Row 339 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,514 - INFO -   [SKIP] Row 340 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,537 - INFO -   [SKIP] Row 341 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,559 - INFO -   [SKIP] Row 342 (Zishan Sayyed): no_active_leads_found for rm_id=2506
+2026-03-12 18:28:16,585 - INFO -   [SKIP] Row 343 (Ashutosh Pawar): no_active_leads_found for rm_id=2320
+2026-03-12 18:28:16,627 - INFO -   [OK] Row 344 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:16,654 - INFO -   [OK] Row 345 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:16,683 - INFO -   [OK] Row 346 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:16,712 - INFO -   [OK] Row 347 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:16,733 - INFO -   [OK] Row 348 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:16,754 - INFO -   [OK] Row 349 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 2
+2026-03-12 18:28:16,780 - INFO -   [OK] Row 350 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 9
+2026-03-12 18:28:16,806 - INFO -   [OK] Row 351 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 5
+2026-03-12 18:28:16,832 - INFO -   [OK] Row 352 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:16,854 - INFO -   [OK] Row 353 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:16,877 - INFO -   [OK] Row 354 (Dinesh Bhosale) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:16,909 - INFO -   [SKIP] Row 355 (Gauri Kadam): no_active_leads_found for rm_id=2134
+2026-03-12 18:28:16,953 - INFO -   [SKIP] Row 356 (Gauri Kadam): no_active_leads_found for rm_id=2134
+2026-03-12 18:28:16,975 - INFO -   [SKIP] Row 357 (Gauri Kadam): no_active_leads_found for rm_id=2134
+2026-03-12 18:28:17,000 - INFO -   [SKIP] Row 358 (Gauri Kadam): no_active_leads_found for rm_id=2134
+2026-03-12 18:28:17,036 - INFO -   [SKIP] Row 359 (Gauri Kadam): no_active_leads_found for rm_id=2134
+2026-03-12 18:28:17,059 - INFO -   [SKIP] Row 360 (Gauri Kadam): no_active_leads_found for rm_id=2134
+2026-03-12 18:28:17,086 - INFO -   [SKIP] Row 361 (Gauri Kadam): no_active_leads_found for rm_id=2134
+2026-03-12 18:28:17,113 - INFO -   [SKIP] Row 362 (Gauri Kadam): no_active_leads_found for rm_id=2134
+2026-03-12 18:28:17,137 - INFO -   [SKIP] Row 363 (Shreenil Parab): no_active_leads_found for rm_id=2315
+2026-03-12 18:28:17,162 - INFO -   [SKIP] Row 364 (Shreenil Parab): no_active_leads_found for rm_id=2315
+2026-03-12 18:28:17,189 - INFO -   [SKIP] Row 365 (Shreenil Parab): no_active_leads_found for rm_id=2315
+2026-03-12 18:28:17,210 - INFO -   [SKIP] Row 366 (Shreenil Parab): no_active_leads_found for rm_id=2315
+2026-03-12 18:28:17,233 - INFO -   [SKIP] Row 367 (Shreenil Parab): no_active_leads_found for rm_id=2315
+2026-03-12 18:28:17,260 - INFO -   [SKIP] Row 368 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:17,284 - INFO -   [SKIP] Row 369 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:17,305 - INFO -   [SKIP] Row 370 (Aman Shaikh): no_active_leads_found for rm_id=2360
+2026-03-12 18:28:17,338 - INFO -   [SKIP] Row 371 (mahesh borakhade): no_active_leads_found for rm_id=2401
+2026-03-12 18:28:17,361 - INFO -   [OK] Row 372 (Prashant Sawant) -> divya.annepu@equentis.com | Leads found: 115
+2026-03-12 18:28:17,384 - INFO -   [OK] Row 373 (Prashant Sawant) -> divya.annepu@equentis.com | Leads found: 2
+2026-03-12 18:28:17,409 - INFO -   [OK] Row 374 (Prashant Sawant) -> divya.annepu@equentis.com | Leads found: 32
+2026-03-12 18:28:17,440 - INFO -   [OK] Row 375 (Prashant Sawant) -> divya.annepu@equentis.com | Leads found: 43
+2026-03-12 18:28:17,463 - INFO -   [OK] Row 376 (Prashant Sawant) -> divya.annepu@equentis.com | Leads found: 3
+2026-03-12 18:28:17,485 - INFO -   [OK] Row 377 (Prashant Sawant) -> divya.annepu@equentis.com | Leads found: 6
+2026-03-12 18:28:17,514 - INFO -   [OK] Row 378 (Vishal Sharma) -> divya.annepu@equentis.com | Leads found: 118
+2026-03-12 18:28:17,546 - INFO -   [OK] Row 379 (Vishal Sharma) -> divya.annepu@equentis.com | Leads found: 1
+2026-03-12 18:28:17,570 - INFO -   [OK] Row 380 (Vishal Sharma) -> divya.annepu@equentis.com | Leads found: 5
+2026-03-12 18:28:17,592 - INFO -   [OK] Row 381 (Vishal Sharma) -> divya.annepu@equentis.com | Leads found: 23
+2026-03-12 18:28:17,619 - INFO -   [OK] Row 382 (Vishal Sharma) -> divya.annepu@equentis.com | Leads found: 52
+2026-03-12 18:28:17,645 - INFO -   [OK] Row 383 (Vishal Sharma) -> divya.annepu@equentis.com | Leads found: 7
+2026-03-12 18:28:17,646 - INFO - 
+Valid CSV rows : 114
+2026-03-12 18:28:17,646 - INFO - Skipped rows   : 268
+2026-03-12 18:28:17,646 - INFO - Total leads    : 3613
+2026-03-12 18:28:17,647 - INFO - Audit file     : E:\\EcSops\\logs\audit_20260312_182807.csv
+2026-03-12 18:28:21,928 - INFO - Execution cancelled.

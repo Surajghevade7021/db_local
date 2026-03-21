@@ -1,0 +1,11 @@
+2026-03-12 16:20:57,282 - INFO - Start --> 2026-03-12 16:20:57.282444
+2026-03-12 16:20:57,283 - INFO - Total rows in CSV: 1
+2026-03-12 16:20:57,453 - INFO - 
+Validating rows...
+2026-03-12 16:20:57,526 - INFO -   [SKIP] Row 2 (Aachal Gupta): no_active_leads_found for rm_id=2231
+2026-03-12 16:20:57,527 - INFO - 
+Valid CSV rows : 0
+2026-03-12 16:20:57,527 - INFO - Skipped rows   : 1
+2026-03-12 16:20:57,527 - INFO - Total leads    : 0
+2026-03-12 16:20:57,527 - INFO - Audit file     : C:\Users\suraj.ghevade_equent\Downloads\audit_20260312_162057.csv
+2026-03-12 16:20:57,530 - INFO - Nothing to process. Exiting.

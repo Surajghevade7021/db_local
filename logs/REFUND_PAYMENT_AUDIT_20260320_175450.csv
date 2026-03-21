@@ -1,0 +1,120 @@
+ï»¿Email Count,Month,Sr. No.,Entry done by,Center,Zone Head,counselor,client_name,client_email,client_phone,contact_id,onboarding_date,refund_request_date,No of days between Onboarding and Refund Raised,detail_concern,ops_status,refund_category,refund_sub_category,reason,reason_sub_category,amount,gst_amount,refund_amount,Refund Category.1,bank_proof,deactivation_flag,refunded_product,finance_request_date,ops_remarks,refund_date,utr,amount_paid,finance_remarks,Unnamed: 33,EC Status (Refunded ),dashboard_deactivation_date,deactivation_email_date,Email Date,process_status,remarks,refund_id,api_status,onboarding_id,created_at,reason_sub_category_clean,reason_id
+1,26-Mar,3,Shivani P.,LP2,Kevin Delwadia,Jyoti Yadav,ANJANA KUMARI,rajkumar1592013@gmail.com,9839163483,3809054,2026-09-02,2026-11-02,2,"Case facts:
+
+The client sent multiple reminders that he has not received any call after the payment. Upon checking we came t know that the services are activated on 9th and from 10th the WC officer trying to reach him but his number is always not reachable. Meanwhile the client called on support numbers twice and asking for refund only. The refund policy explained to him.
+
+Welcome call comments: As discussed the client wanted to proceed for a welcome call as we were deducting his 3 months amount of the subscription,
+the client planned to continue with the services for initial 3 months. Hence , the welcome call  completed as of now.
+
+13.2.26 : We received an inbound call from the client requesting a refund and repeatedly blaming him . The account was activated on 9th February, and the welcome call was conducted on 10th February 2026 as per the standard process. However, the client stated that he did not receive any call. We clarified that the welcome call was attempted and all support we provided. Despite this clarification, the client maintained that no support had been provided and was unwilling to accept the explanation.
+
+The client asked about the refund process and the refundable amount. As per the policy, it was explained that one quarter of the subscription fee along with the service usage days would be deducted. 
+
+Nervecell Comment:
+As discussed, the client agreed to proceed with the welcome call since three months of the subscription fee would be deducted as per policy. The client has planned to continue the services for the initial three months. Accordingly, the welcome call has been completed.
+
+13th Feb 26 -Despite the completion of the welcome call, the client expressed that he does not wish to continue the service and is requesting a refund.
+
+Refund as per refund policy will be processed.",Refund Initiated,Retail Tranch 1 Refund,As per breakage deduction,SERVICES RELATED/SERVICE EXPECTATION,OTHER,14833,0,14833,,rajkumar1592013@gmail.com.jpg,,Combo,2026-02-03,Refunded,2026-06-03,INF/NEFT/IN42606557805064/CBIN0280183/67594612 / /AnjanaKumar,14833,Paid,,,,,,SUCCESS,,4077,,104858,2026-01-28 17:53:24.942000+00:00,OTHER,12
+1,26-Mar,10,Shivani P.,PMP- Bengaluru,Sumit Jain,Devaansh Mishra,KEDAR KRISHNA SAWANT,kdrswnt@gmail.com,8850884229,3764394,,,364,"""case fact : on 27 feb due to emandate amount deducted client is on 24th Ops comment : We called the client regarding the below concern. He informed us that he is facing financial issues and job-related problems. There was also a misunderstanding regarding the service ÃÂ¢Ãâ¬Ãâ he assumed that we would actively handle his portfolio. As a result, he now wishes to discontinue the service.
+we have refund the amount full""",Refund Initiated,PMP - Other than tranch 1,Full Refund,CLIENT ISSUE,OTHER,41667,7500,49167,Enach,kdrswnt@gmail.com.jpg,,PMP,2026-04-03,Refunded,2026-06-03,INF/NEFT/IN42606557805148/UTIB0005113/67594612 / /KEDARKRISHN,49167,Paid,,,,,,SUCCESS,,4078,,92747,2025-02-27 00:00:00+00:00,OTHER,12
+1,26-Mar,11,Vidhi P.,Noida,Gaurav Grover,Kiran Arora,Rajesh Mehta,rajeshmehta1@gmail.com,9830713438,3717143,2025-04-06,2026-10-02,251,"On 10th Feb 2026: CS team raised a concern: The mentioned client has requested a refund on a service call as wants a refund of 1st tranche payment. He mentioned that he is having issues with mobile application from the day 1. I already raised this query back in november but the client stated that this issue has not been resolved till date. Right now he is demanding a refund as he did not use this service. If he is not eligible for refund then he wants a Mail from equentis for the explanation. 
+Ops Comments: As per checking he is not eligible for a refund as his onboarding was done in the month of Jun 2025
+
+The client below has been facing a login issue since renewing their services. Based on my checks, he raised these concerns multiple times, however we could not find any issue with his login and we also asked him to share the screenshots. He said the error message vanished so quickly that he couldn't take a screenshot because he is 72 years old and not very tech-savvy. 
+
+In my conversation with the client today, I personally tried logging in through the dashboard and found the error. The screenshot is below.I informed the client that we will check and get back to him.
+
+image.png
+
+
+Observations: Based on my checks during service calls, most of the updates indicate, ""He is not able to use the services due to a login issue."" Here is the detailed issue that needs to be found.
+
+Following my discussion with Samant on the Tech team, I learned that because this is an old client (from 2017), he must first log in through the website to verify his email. 
+
+Action taken: Samant will make the necessary changes on the backend. He can log in to the dashboard now.
+
+Called again: The client confirmed that he can log in now. The client now expects an extension of services. I informed him that it is not possible, he may opt for a refund and re-onboard. However I tried the refund amount excluding GST but he is not ready for that. We approved the full refund because it was our fault. Also he has threaten to escalate to SEBI.
+
+Remedial measures:
+
+@Samant Kumar : Kindly get the details of the client who are facing this issue for the same reason. Kindly confirm if any communication was done with these clients stating they have to login through the website first.
+
+@Sneha Iyer - Please address the team to prob and get the maximum details from the client (e.g., what the app looks like, what is flashing on the screen, the first step they took, etc.) On;y updating the system will not work.
+@Opswealth Equentis The above also applies to you.",Refund Initiated,Retail Tranch 1 Refund,Full Refund,TECH ISSUES,OTHER,9800,1764,11564,,rajeshmehta1@gmail.com.jpg,,5in5,2026-04-03,Refunded,2026-06-03,INF/NEFT/IN42606557805161/IDFB0060103/67594612 / /RajeshMehta,11564,Paid,,,,,,SUCCESS,,4072,,81372,2025-05-24 00:00:00+00:00,OTHER,12
+1,26-Mar,12,Vidhi P.,PMP Bengaluru,Sumit Jain,Devaansh Mishra,SUMIT SHARMA,sumit.0612@gmail.com,9719002580,3794064,2025-03-12,,72,"9th Jan 2026 : inbound call : Client query : Asking for refund 
+
+Ops comment : spoken with the client he is stating that dissatisfied with the service. no call received after activation. Also not interested in taking the service. ( pre onboarding close the query email to the Rm ) On 16th Jan 2026  again client raised query related log in issue .due to delay in onboarding he wants a refund.
+
+16th feb 26-ops comment-We contacted the client regarding the below query. The client stated that the counselor had informed him that since they were conducting events, his travel expenses would also be refunded. He further mentioned that at the time he received the retail refund, the counselor assured him that he could request a refund anytime as per the policy.However, he is currently not receiving responses to his calls. He also stated that Ms. Richa Thakur has neither attended his calls nor responded to his queries.
+
+EC query- sales person said that we will be conducting events within 6 months and we wiil be covering all the travelling expenses.
+
+Counsellor's comments: Regarding the travel expenses, the miscommunication was caused by a new BDA and was clarified to the client before the payment was made. This can be verified with the client.  Additionally, I missed only one call from this client. He is frustrated due to The delay in share transfers and the lack of timely updates.
+
+Pre-IPO comments : I successfully connected with the client. He is extremely irate and expressed strong dissatisfaction regarding the lack of support from the Pre-IPO team.
+
+He stated that during onboarding he was assured of continuous support from our side; however, after making the payment, he did not receive the expected assistance. He mentioned that he attempted to contact Richa multiple times to discuss his investment but did not receive any response.
+
+The client is firm on his decision and is requesting a refund of both the subscription amount and the Pre-IPO investment. He also shared that he is in urgent need of funds for his sonÃÂ¢Ãâ¬Ãâ¢s school fees and his motherÃÂ¢Ãâ¬Ãâ¢s medical treatment.
+
+Regarding the Pre-IPO refund, I have already sent an email to Richa. Kindly connect with the client from your end to address the membership cancellation process.
+
+Email sent to pre-ipo to check if the aalegation raised by the client are prooved or not.
+
+The client is not acceptingthe refund  on pro-rata basis and requesting for full refund, as no call recording available also the pre-ipo share trf delay, an amount of Rs. 25,000/- is offered to the client.",Refund Initiated,PMP Tranch 1 Refund,On Pro-rata basis,PRE-IPO ISSUES,OTHER,25000,0,25000,,sumit.0612@gmail.com.jpeg,,PMP,2026-04-03,Refunded,2026-06-03,INF/NEFT/IN42606557805230/HDFC0000851/67594612 / /SUMITSHARMA,25000,Paid,,,,,,SUCCESS,,4075,,100949,2025-11-30 14:26:55.250000+00:00,OTHER,12
+2,26-Mar,24,Vidhi P.,PMP Bengaluru,Sumit Jain,Kiran kumathe,Muneer Mir,mirmuneerjkb@gmail.com,9906524205,2932579,2025-03-12,2026-02-02,61,"Issue: Ticket No.:4720  Client onboarded with us in December but wants a refund he is saying that if everything I have to do why should i pay for the service in the newsletter part and informed investor.
+
+Query Ops Feedback: We have received a refund request from the client. He has requested the refund due to a pre-IPO issue (Jupiter Pre-IPO)
+
+2nd Feb 2026: Pre-IPO Feedback: We connected with the client, who has requested to cancel the services and is seeking a refund due to a lack of support from the Pre-IPO and support teams. He mentioned that he intended to invest in OYO in the month of March but was unable to proceed due to insufficient communication. Additionally, he did not receive clear information regarding his agreement from the service team. Kindly arrange a call with the client to address his concerns and explain the further process.
+
+13th Feb 2026 : Pre-IPO Feedback: We connected with the client regarding his concern. He mentioned that in October and November he was interested in purchasing OYO shares. However, Kiran had advised him that the price was currently high and the company is going to issue bonus shares so later he can purchase them at a lower price.
+
+The client stated that after this discussion, he did not receive any follow-up call or further support to proceed with the purchase.
+
+Ops Action Required: Ops to calculate refund>>>against Pre-IPO Service Issue.
+
+The client is not agree on prorata refund and threatening to go to SEBI, as there is a pre-ipo service issue, we will be processing full refund excluding GST.",Refund Initiated,PMP Tranch 1 Refund,Full Refund,PRE-IPO ISSUES,OTHER,14164,0,14164,,mirmuneerjkb@gmail.com.pdf,,PMP,2026-07-03,Refunded,2026-11-03,INF/NEFT/IN42607052601385/JAKA0APEXBR/67922819 / /MUNEERMIR,14164,Paid,,,,,,SUCCESS,,4076,,101145,2025-12-03 13:06:26.198000+00:00,OTHER,12
+1,26-Mar,45,Vidhi P.,Renewal/Pull Back,Saptarshi Dasgupta,Vishal Gupta,PRANTIK GHOSH,ghoshprantik66@gmail.com,7407249427,3019725,,2026-04-03,216,case fact : On 4th march 2026 : client is asking for refund his mpo tranche 2. due to tch issue MPO e nach was  not closed. that the reason he want refund because client has already taken multiplyrr service in sep month and MPO was takne july month.  in sept month we have already refunded mpo 1 tranche ,Refund Initiated,TECH ISSUES,Full Refund,Full Refund,OTHER,14400,2592,16992,Enach,ghoshprantik66@gmail.com.jpg,,MPO,2026-09-03,Refunded,2026-10-03,INF/NEFT/IN42606950933914/SBIN0020446/67778628 / /PrantikGhos,16992,Paid,,,,,,SUCCESS,,4071,,18542,2025-09-13 18:58:55.247000+00:00,OTHER,12
+1,26-Mar,46,Vidhi P.,PMP Bengaluru,Sumit Jain,Rahul Singh,Rajesh Gupta,rajeshnrw@yahoo.com,9416178487,3723122,2025-04-09,,165,"Case Facts: 30.08.2025 from my HDFC Bank, Narwana acc. no 172210000016816 as my ist. Installment with the promise that company will provide me timely services like investments in stocks, my personal portfolio review, 100% guaranteed Pre IPO allocation to my DEMAT acc. within a week after payment In Pre IPO shares , shares of Heritage Infraspace Ltd. were highly recommended by Mr. Rahul Singh, Senior Investment Wealth Advisor of the company and I was asked to pay Rs.25000/ immediately otherwise stock will jump 10% as there is huge demand for this stock and this is a great stock. - Refer Chat screen shot 
+
+Highly impressed by his advice , I transferred Rs.558100/ via Ch. No. 000247 dt. 31.08.2025, HDFC Bank, Narwana for Pre IPO Investment. 
+Out of this amt. 200 shares of Heritage Infraspace Ltd.@ Rs.1475/ ( Total amt. Rs.295000/- ) were allotted to me , which can be verified from their Deal Conformation Letter dt. 09.09.2025. - Ok as per deal letter - Refer Pre-IPO team revert.
+
+
+But unfortunately company never fulfilled its commitments because of which I requested the company again and again through whatsapp and e mail on dt. 04.09.2025, 24.12.2025, 16.01.2026 to cancel my subscription and refund my money - No request received until 24th Dec for refund. Allegation that 4th Sep 2025 for cancellation contradicting with client email On Tue, 28 Oct 2025 at 6:31 am, rajesh gupta: <rajeshnrw@yahoo.com> wrote: I have to make fresh investment in equity. Please advise.
+
+Although Mr. Rahul had committed that if before 2nd. installment, I donÃÂ¢Ãâ¬Ãâ¢t get desired results , company will refund my subscription fee also after deducting GST. - Listen to Recording
+
+As far as transferring of shares of Heritage Infraspace Ltd.for which company has takes Rs. 295000/- from me, same has not been transferred to my Demat acc. even after passage of 5 months - Pre IPO refunded : Please note the Client has invested in the following four stocks: Only the transfer of HIL share was pending due to unavailability, and the Client was unwilling to wait or replace it with another stock.We communicated with the internal team and processed accordingly.
+
+On 16.01.2026 when I requested the company to cancel my order and refund my money taken for HIL shares, I received mail from company that I should opt for shares of Communities Heritage Ltd..I had replied the company th, mail that now I am not interested in any Pre IPO shares and to refund my money Rs. 295000/-.taken by company for shares of Heritage Infraspace Ltd.as well as subscription fees of Rs. 39981/ taken by company by making false promises. You are requested to take strict action against the company for such type of malpractices and order the company to refund my money ( Rs.295000+ Rs.39981= Rs.334981/-) with interest and cost for causing financial losses and mental harassment to me.  --Compliance to review
+
+Ops Comments: The client has escalated to SEBI and multiple times we denied for the refud However, as per Discussion with Rakesh sir, his full refund is approved (less GST) to close the matter amicably.",Refund Initiated,PMP Tranch 1 Refund,Full Refund,PRE-IPO ISSUES,OTHER,33883,6099,39982,,rajeshnrw@yahoo.com.pdf,,PMP,2026-09-03,Refunded,2026-10-03,INF/NEFT/IN42606950933930/HDFC0001722/67778628 / /RAJESHGUPTA,39982,Paid,,,,,,SUCCESS,,4073,,92995,2025-08-22 00:00:00+00:00,OTHER,12
+1,26-Mar,64,Vidhi P.,PMP Bengaluru,Sumit Jain,Saeib Hashim,Riya Pramanik,riya.pramanik@icloud.com,9332164963,3656226,,2026-02-02,80,"Ops Comment: Received a call transferred from the Pre-IPO team. The client wants to cancel the service and is asking for a refund. The clientÃÂ¢Ãâ¬Ãâ¢s main concern is that the Pre-IPO service has not been providedÃÂ¢Ãâ¬Ãâno calls were received from the RM, and despite requesting an RM change earlier, no update was given. The client also raised concerns regarding the delay in share transfer and stated that there have been no updates on Pre-IPO performance.
+
+Pre IPO Support commnets: I had a conversation with the below-mentioned client, during which he expressed dissatisfaction with his pre-IPO experience, citing a lack of response and support from the RM, @Dishari Chatterjee . Due to this, the client has conveyed his intention to discontinue the subscription and request a refund.
+
+@Anup R   ÃÂ¢Ãâ¬Ãâ Kindly look into this matter on a priority basis and arrange a callback from the concerned RM at the earliest, with an objective to address the clientÃÂ¢Ãâ¬Ãâ¢s concerns and attempt client retention.
+
+Additionally, I have updated the client regarding the status of NSE share transfers and also shared his current portfolio update.
+On 6th March 2026 : sumit has given approval for refund as per that provide refund without gst 
+Please keep us informed once the discussion is completed
+
+Pre-IPO counsellor comments: I have spoken with the client regarding their concerns. During our conversation, the client did not request a refund or cancellation of the service. Instead, his primary requirement was assistance with the exit process.
+
+18th Feb 2026 : Received an inbound call from the client requesting a refund due to dissatisfaction with Pre-IPO performance. I informed him that he can continue and utilize the MPO and 5&5 services. However, he declined and stated that he wants to shift back to the old combo service. I explained the refund calculation and clarified that he is not eligible for a refund as per policy. The client then requested to first cancel his e-mandate. I informed him that we will raise the request for e-mandate cancellation and update him via email once process         as per sumit sir approval we have process refund as per ops we have provided denial",Refund Initiated,PMP Tranch 1 Refund,Full Refund,PRE-IPO ISSUES,OTHER,33067,0,33067,,riya.pramanik@icloud.com.pdf,,PMP,2026-12-03,Refunded,,INF/NEFT/IN42607757577296/UTIB0003153/68317376 / /RiyaPramani,33067,Paid,,,,,,SUCCESS,,4074,,99538,2025-11-14 16:28:14.387000+00:00,OTHER,12
+2,26-Mar,75,Vidhi P.,PMP Bengaluru,Sumit Jain,Kiran kumathe,Muneer Mir,mirmuneerjkb@gmail.com,9906524205,2932579,2025-03-12,2026-02-02,61,"Issue: Ticket No.:4720  Client onboarded with us in December but wants a refund he is saying that if everything I have to do why should i pay for the service in the newsletter part and informed investor.
+
+Query Ops Feedback: We have received a refund request from the client. He has requested the refund due to a pre-IPO issue (Jupiter Pre-IPO)
+
+2nd Feb 2026: Pre-IPO Feedback: We connected with the client, who has requested to cancel the services and is seeking a refund due to a lack of support from the Pre-IPO and support teams. He mentioned that he intended to invest in OYO in the month of March but was unable to proceed due to insufficient communication. Additionally, he did not receive clear information regarding his agreement from the service team. Kindly arrange a call with the client to address his concerns and explain the further process.
+
+13th Feb 2026 : Pre-IPO Feedback: We connected with the client regarding his concern. He mentioned that in October and November he was interested in purchasing OYO shares. However, Kiran had advised him that the price was currently high and the company is going to issue bonus shares so later he can purchase them at a lower price.
+
+The client stated that after this discussion, he did not receive any follow-up call or further support to proceed with the purchase.
+
+Ops Action Required: Ops to calculate refund>>>against Pre-IPO Service Issue.
+
+The client is not agree on prorata refund and threatening to go to SEBI, as there is a pre-ipo service issue, we will be processing full refund excluding GST.",Refund Initiated,PMP Tranch 1 Refund,Full Refund,PRE-IPO ISSUES,OTHER,18164,0,18164,,mirmuneerjkb@gmail.com.pdf,,PMP,,Refunded,,INF/NEFT/IN42607757577315/JAKA0APEXBR/68317376 / /MUNEERAHMAD,18164,Paid,,,,,,SUCCESS,,4076,,101145,2025-12-03 13:06:26.198000+00:00,OTHER,12
