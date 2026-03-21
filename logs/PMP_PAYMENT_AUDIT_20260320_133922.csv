@@ -1,0 +1,491 @@
+amount,gst_amount,refund_amount,amount_paid,payment_id,onboarding_id,lead_id,trackrr_customer_id,sub_product_id,payment_provider_id,payment_ids,detail_concern,utr,refund_date,bank_proof,reason_id,contact_id,process_status,remarks
+28800.0,5184,33984.0,33984.0,7695.0,14225.0,385689.0,0.0,3.0,,"7695,7695","Case fact on 26th feb 2026 email raised : Pl. I don't want to continue service. I my self doing investment thanks ð
+ops comemnt not answering the call                                                                                                                                             .OPs comment : 6 march 2926 :We tried calling the client multiple times but he isn't answering. The client's second tranche was deducted; he wants a refund for that amount. The reason he mentioned it is that he is investing himself, not investing in our recommendation. we have shared email to client for bank details.Â",INF/NEFT/IN42607656321150/UBIN0542423/68196970 / /SUNILGOPALR,2026-03-11,sgr2163@gmail.com.jpg,8.0,2446429,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+68600.0,12348,80948.0,80948.0,5240.0,9957.0,423006.0,0.0,3.0,,"5240,5240","Case fact : On 28th Feb 2026 : client has raised an email that client wants a refund. tranche 2                                                                                               Ops comment : On 5 march : Spoke with the client. She stated that she is a student and currently does not have funds to invest; therefore, she is requesting a refund. She has been informed that an email will be shared with her regarding the same.",INF/NEFT/IN42607656321091/SBIN0009816/68196970 / /YUVIKASONI,2026-03-17,yuvikasoni09@gmail.com.jpg,4.0,2463016,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+72000.0,0,72000.0,72000.0,8212.0,15061.0,1687368.0,,4.0,,"8212,8212","Issue: Client want PMP Refund.
+
+17th Dec 2025: Receivables email to Counsellor and Akhilla: The client mentioned below claims he was onboarded based on a commitment to generate due payments every 6 months (instead of the usual 4 months). He was onboarded on 4th August 2025 by Shivam Agarwal and was told to complete Enach with the understanding that cancellation could follow later, as advised by the Sales representative. Subsequently, on 4th December, his Enach was executed but failed because he did not maintain the required balance, owing to the six-month commitment. The client is now requesting a full refund of the PMP membership, citing false commitments by Shivam, and he also wishes to discontinue with PreIPO. @Raj Mehta  FYI.  @Datti Akhila Please ask Shivam to speak to the client and retain him, as he is not responding to his calls. Attached is the call recording where the client spoke about the commitments made to him.
+
+17th Dec'25 to 27th Jan 26: No response from counsellor.
+
+3rd Feb 2026: Client Email to Grievance: team I want full refund of my subscription amount as it was quoted by your counselor shikha singh that if I don't get return this services I will get full refund of the amount paid.i will escalate it to sebi Tomorrow first thing in the morning need proper revert today it self.
+
+3rd Feb 2026: Shivam Agarwal Feedback: I had a word with the client. He started threatening me for the same. He is very irate with the returns. Please see what best we can do in this case. Attached recording for your reference.
+
+Ops comments on the call recording of Shivam Agarwal: The client is very much frustrated and is abusive on call. He keeps on demanding refund only, he said Shikha singh had promised the returns in 6 months. In pre-ipo he was told 30% to 50% returns withing 4 months, he threaten to complaint to SEBI if the refund is not processed and demanding full refund only.
+
+Ops Action Required: Ops to check quality recording and refund full against counsellor false commitment. - 
+
+20.2.26 - Escalted to the counsellor awaitng revert by EOD.
+
+Since client is repeatedly threatening for SEBI and No further discoussion record found post whats's app sharing on pricing, processing the full refund to close the case.",INF/NEFT/IN42607052601395/BARB0DBBHIL/67922819 / /SANJEEVSING,2026-03-11,sanjeev9302@gmail.com.jpg,130.0,2621346,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+20000.0,0,20000.0,0.0,4913.0,9217.0,632300.0,0.0,1.0,,"4913,4913","Issue: We received client concern on 5th Jan 2026 for refund (refer attached complaint)
+
+Operations Discussion with Client:  The client has purchased a residential property and won't be able to invest further. We informed him that  as the services are for 25 years he can invest later, then he said he won't be able to pay the remaining tranches as his fund is blocked now. Informed him that there will be hardly any amount he will get in refund.
+5th Jan to 13th Jan 2026 - No response from counsellor inspite of escalation.
+13th Jan 2026 Sales Feedback: Sales team had an in depth conversation with the client & he stated that  ,He is buying a residential property , and does not have any funds to invest further , especially facing issues to pay next tranches . Sales team tried to counter the pitch but he had a funds shortage. Kindly proceed , this client cannot be retained.
+16th Jan 2026: Ops responded client with refund calculation as per Agreement clause and asked for Bank Details
+17th Jan 2026: Client responded that not satisfied with calculation as Counsellor committed that only 4k to 5k would be debited if requested for refund before payment of tranche 2.
+20th Jan 2026:  responded to the client on  that refund is calculated as per agreement signed and also as per client below client email request dated 5th January 2026 where himself asked for a refund as perClause 10.3 (Voluntary Termination) and Clause 11.1.2 of the Investment Advisory Agreement.
+
+20th Jan 2026- Client responded again that commitment was different at the time of onboarding.
+
+January 16, 2026 11:48:28 am & Tue, Jan 20, 6:29â¯PM: email sent to client - Bank details - Refund Amount - 6,523 .
+
+21st Jan 2026 :SEBI SCORE Complaint received: Client disagreed the refund amount and escalated the matter to SEBI - Case facts shared with compliance.
+
+26th Jan 2026: Responded client with calculation of refund .",,,itsmeraghavmittal@hotmail.com.pdf,182.0,2692049,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+64046.0,0,64046.0,0.0,6618.0,11265.0,1645597.0,,4.0,,"6618,6618","Case Facts:
+On 11th March 2026, the client sent an email to support requesting a refund.
+
+Ops Comment:
+On 12th March 2026, we spoke with the client. He stated that he has incurred a loss of around â¹15 lakhs in Futures and Options, due to which he currently does not have funds to invest in the market and therefore requested a refund. The client also mentioned that he may consider continuing the service after one year once he has sufficient funds.
+
+We have informed the client that the refund will be processed as per the company policy. Accordingly, the refund will be processed for 2 tranches only, after deducting GST and service usage.",Considered in payment list of 17/03/26,,govindranjanikar7@gmail.com.jpg,183.0,2752368,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+30600.0,5508,36108.0,0.0,7219.0,13331.0,796601.0,0.0,2.0,,"7219,7219","11th feb 26-It is my humble request to you that I don't want to continue with equintis so please cancel my e mandate and cancel my subscription or refund my fees
+Thank you....
+19th feb 26-The client had already emailed on 11th February 2026 requesting e-mandate cancellation and a refund. On 13th February, the second tranche was deducted. We contacted the client regarding discontinuation, he initially cited personal reasons and later mentioned fund issues. The client requested a refund for the recently deducted tranche, and we have processed a full refund accordingly.",Considered in payment list of 18/03/26,,pansuriasandeep72@gmail.com.png,4.0,2856127,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+68666.0,0,68666.0,68666.0,8161.0,14977.0,1678292.0,,4.0,,"8161,8161","5-Feb-26:
+
+Ops comments:  Spoke with the client. He stated that RM Nicholas Paul had informed him that he would receive 40% returns before the second tranche payment, failing which the first tranche would be refunded. I informed the client that, as per policy, he is not eligible for a refund. The client disagreed and insisted on a refund.
+
+Ops 2nd comments: I have spoken to the client, he said that he was told by the counsellor that he will get the profit of 30% to 40% in pre-ipo till his next tranch due and he can make the tranch payment with the profit. He said initially multiple times he denied the subscription but later he agreed on the basis of the above statement.
+
+1. We need to check the sales pitch recording and the welcome call. On that basis we will take the decision.
+
+@vidhi pithadiya - The client wants to change his alternate number as his primary number as inspite of many emails he is still getting calls on his registered number. I asked him to change the number and also informed me that OTP will not be sent on ISD no. and he is OK with that. (Changes done).
+
+Action taken: pitch is in tamil / discuss with ashrita // email to client that he is not eligible. On Jan month clinet raised query we have denied in jan month. Again client has raised concern in feb month. client has shared us proff of rm commtiment as per that we are providing full refund without GST.",INF/NEFT/IN42607153108342/SBIN0000970/67965054 / /RAMANATHANS,2026-03-12,meetramusenthil@gmail.com.jpg,61.0,3020351,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+28800.0,5184,33984.0,33984.0,8199.0,15091.0,1050099.0,0.0,3.0,,"8199,8199","case on march 7 client email on support : I would like to bring to your notice that the subscription amount has recently been deducted from my bank account through the registered bank mandate for the investment service.
+Due to unfortunate and unforeseen circumstances, I have recently lost my job and am currently facing financial constraints. At this point, I am in a survival mode financially and will not be able to continue with the investment subscription for the time being. Considering my current situation, I kindly request you to please cancel my subscription and process a refund for the amount that has been deducted from my bank account.
+I would greatly appreciate your understanding and support in this matter. Please let me know if any additional information or formalities are required from my side to process the refund.                                                                        OPS comment : on 10 march 2026 : Received an inbound call, the client stated that he recently lost his job and no longer has funds to invest more. hence asking for a refund.",INF/INFT/043734046161/68196970 /VINAYKM/,2026-03-17,vinay6616@gmail.com.jpeg,187.0,3108801,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+24322.0,0,24322.94,24322.0,4491.0,8539.0,1252793.0,0.0,1.0,,"4491,4491","On feb 5th Client raised query to  pre ipo team : received an inbound call from Hari Nair, who mentioned he has been trying to reach you regarding an urgent matter. Mr. Nair is requesting to cancel his pre-IPO subscription and obtain a refund as soon as possible due to a medical emergency involving his wife's surgery.                                                                                                                                                                                        Rm sunil connect the client on  5th Feb 2026 : Iâve spoken to the client from my end.
+At the moment, he is dealing with a medical emergency â his wife is undergoing surgery and treatment for certain health issues. Due to this, he is in urgent need of funds and is understandably not in the right frame of mind to continue with investments right now. I did try explaining and convincing him that we could keep the investments on hold and continue the services at a later stage, but he was quite clear that he would prefer to exit for now and return once things stabilize on the personal front. Given the situation and the urgency involved, I request you to please go ahead and initiate the refund process at the earliest, as feasible.
+
+
+Ops to call the client and informed he is not eligible. On 23rd feb 2026 : client is not answering the call inform through email not eligible c
+
+Revised calculation sent to the client on pro-rata basis.",INF/NEFT/IN42606557805185/DCBL0000060/67594612 / /HariNair,2026-03-06,haricertain@gmail.com.jpg,1.0,3307788,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+24000.0,0,24000.0,24000.0,7514.0,13865.0,1323695.0,,2.0,,"7514,7514","2.Feb.26 - Email from client received
+
+Reason for refund : I have not requested for portfolio performance review for your recommendations. Please do not send those as I am not going thru them. I have one point very clear that at the time of PMP registration I was given to understand that any point in time if I wish to cancel the services it will be done immediately with no questions asked.
+
+So please cancel the PMP registration along with e-mandate cancellation and process the full refund by next week.
+
+Ops comments : Tried connecting through EC and Landline - but could not connect
+9-Feb-26 : Ops comments : Brief: The client said he is not happy with recommendations and the returns. Informed him that it is so early to expect the return as its a long term product. He said he agrees on that but still the returns go negative drastically so he is worried and does not want to continue. I informed him that as per the policy he will either get the marginal amount of refund or no refund. He requested to consider something as he is asking for a PMP refund not a retail refund. Told him I will email him whatever is possible.
+
+NOTE: He has decided for a refund hence,, denied for PRM call.
+
+12-Feb-26 : Not eligible email sent
+13-Feb-26 : Client emailed for full refund
+16-Feb-26 : Email for prorata sent i.e. 5,443/-
+16-Feb-26 : Client again emaile for full refund only  or he will escalte. as the counsellor said if not happy will get full refund.
+
+Observation: We have gone through the WC and sales pitch no refund discussion. Hence we will not provide any refund beyond pro-rata.
+
+20-Feb-26 : The client hasraised the concern to Swapnil, for full refund. Swapnil is yet to send the reply.
+
+Compliance comments: Following the discussion with the client regarding their grievance, the client agreed to a refund amount of Rs. 12,000/- hence, requesting you to take confirmation on email from the client; & proceed further.",INF/NEFT/IN42606950933452/HDFC0000051/67778628 / /SameerShash,2026-03-10,sssalastekar@gmail.com.pdf,148.0,3378689,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+72260.0,13006,85266.0,0.0,111442.0,90573.0,1796202.0,60000.0,4.0,,"111442,111442","""Request from Counsellor: Kindly cancel the E - Nach of the client as he wants to pay his next charges from his credit card only. kindly check and proceed further. He is a little irritated about the same and calling me again and again .
+
+Customer Service Mail - The mentioned client got commitment from the sales person that there will be a 10% discount on each tranche payment and he dropped mail regarding the same but no response.
+
+Ops Comment - we spoke with a client, He mentioned that Shikha promised the client a 10% discount on every tranche payment. The client notes they received a â¹5,000 discount in addition to a 10% discount on Tranche 3. Also Shikha told the client that they have the option to claim a full refund if they decide before the Tranche 3 payment that they do not wish to continue the service. Now the client is asking for a full refund. 
+We have received the approval for pro-rata refund but the client said as it was a false commitement from our end he should get full refund. Case again forwarded to the counsellor to confirm if such commitements were given.
+
+
+Ops to discuss with client: An email sent to the client to Give second Tranche excluding GST. This is best we can do for this client. 
+21.Jan.26 - The client denied on the above option and requested for a full tranch payment for the recent tranch and pro-rata on 1st tranch.
+23.Jan.26 - Ops sent a revised email for the refund of 2nd tranch including GST. The client is still not agree on the same.
+4.Feb.26 - A final email sent to the client that no further deviation in refund will be done. The final amount will be 2nd tranch full refund including GST.""",Considered in payment list of 18/03/26,,nirenbpatel@gmail.com.jpeg,61.0,3386297,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+70466.0,0,70466.0,0.0,6514.0,12141.0,1450436.0,0.0,2.0,,"6514,6514",case fact : On 16th Feb 2026 : client is asking a refund of tranche 2. nisha spoken with the client she is out of country she has not use the service for that resaon she wants second tranche refund. as per that we are providing refund deducting GST. ( feb entry not done ),Considered in payment list of 18/03/26,,mehtasonali712@gmail.com.pdf,176.0,3505428,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+28800.0,0,28800.0,28800.0,6423.0,11838.0,1484709.0,0.0,2.0,,"6423,6423","EC Ticket Raised by  Nerve cell: ""5326Reason: The client wanted to cancel E-Mandate and also wanted the refund of the amount which was deducted from his bank account.
+Not interested to continue ahead. Kindly also share an email on the cancellation and refund as the client was promised from our team on the initial days when he raised the issue that our team would cancel the E-Mandate but was not done, hence he requires a refund.""
+OPs comments: Client mentioned that his stocks are not performing well and he gets negative returns on his portfolio. He is not ready for any calls. I told him that we will be deducting GST only but he is not ready for this. He is askig for a full refund only.
+As per checking his portfolio returns is positive 5*5 (6.64 %)  and MPO (2.01 %).",INF/NEFT/IN42606950933069/UBIN0534480/67778628 / /NikhilDhans,2026-03-10,nikhajare1@gmail.com.pdf,148.0,3539700,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+67668.0,12198,79964.0,79964.0,6509.0,11729.0,1661281.0,,4.0,,"6509,6509","Client Email : I Raushan Sinha, have multiple times informed you your sales executive and collection team, that I do not want to continue the membership with your firm, but still my account have been debited on 28th Feb 2026.
+
+Requesting you to refund the money back immediately.
+
+Ops Comments: ,the client stated that he had clearly informed the payment team about cancelling the service. However, the amount has been deducted. He is now requesting a refund.
+
+Client email : As discussed, my account and subscription got deactivated in Oct 2025, there after i informed equentis AR team and relationship team who were calling for due payments that I want to discontinue the membership. There after my account was blocked.
+
+and all payment was stopped, Meanwhile i forgot to remove the e-mandate, but last month on 28th Feb-26, suddenly my account got debited by 39,924/- without any intimation.
+
+I request you to get the money refunded ASAP. I tried calling AR team, Account Manager ""Sachin"" and Rishav"" also to the Grivance Team  multiple times and was not able to connect.
+
+Ops comments: 1. No response from RM, no one was picking up his calls.
+2. Updating the purchase details in the app is tedious work.
+3. They are getting cheaper service than us.
+4. I asked him which support numbers he was trying to reach, he said he will send the screenshots.",INF/NEFT/IN42607656321137/HDFC0004101/68196970 / /RAUSHANKUMA,2026-03-11,raushanksinha@yahoo.com.jpg,174.0,3567851,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+69000.0,12420,81420.0,81420.0,5763.0,10804.0,1646741.0,0.0,2.0,,"5763,5763","CLient email :As I already mailed you regarding cancellation of my membership still Rs 40710 deducted from my account kindly refund the amount and cancel my membership else wise I will complaint in higher authority 
+
+Ops commnets: The client said he is not interested in the services and wants a refund for the recent tranch debited. Asked him to reply to the email to provide the bank details.",INF/NEFT/IN42606557805104/UTIB0003602/67594612 / /SHREYASMISH,2026-03-06,shreyasmishra61@gmail.com.heic,174.0,3643836,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+66866.0,12036,78902.0,78902.0,5797.0,10816.0,1649988.0,0.0,3.0,,"5797,5797","Client Email : Due to some financial emergency, I would not able to continue with PMP membership, request you to kindly cancel my membership and help me with the refund. 
+Further today 2nd installment amounting to Rs. 39,451/- was debited to my account request your to refund the same in full.
+
+Ops Comments:The client informed us that due to a medical emergency in his family, he would like a refund. I explained that the most recent tranche (excluding GST) can be refunded as per policy. However, he stated that he is also a Chartered Accountant and insisted that GST should be refundable as well.
+
+He then requested that we process a full refund for the most recent tranche but continued to insist on a refund for the first tranche, stating that the counsellor had informed him that refunds would be provided on a pro-rata basis.
+I informed him that if he would like us to investigate this claim, the refund process may take additional time. He agreed to proceed with the investigation. I will review the call recording and revert to him accordingly.
+
+25-Feb-26: I have gone through the call recording,there is no such refund discussion. (3 call recordings were there, i have gone through all). However, in our meeting held on 19th Feb. '26 with the sales bangalore, the counsellors confirmed that they were not aware about the breakage fees and they do inform the client pro-rata refund.
+
+I tried calling the client but call went unanswered sending an email for the bank details for the tranch 2, lets see if he comes back or argue, we will provide- pro-rata refund + recent tranch full refund.",INF/NEFT/IN42607153108256/UTIB0000174/67965054 / /ANKITASHOKK,2026-03-12,kankariya.ankit@gmail.com.jpg,185.0,3646924,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+67134.0,0,67134.0,67134.0,9502.0,17655.0,1695997.0,,4.0,,"9502,9502","Case fact: An email received from the client that he is getting calls from the payment team for the PMP tranhc payment, however, he ws told by the counsellor, not to pay the tranch, he is requesting to arrange a call from the counsellor.
+
+Ops comments: The client has concerns regarding pre-IPO returns and mentioned that the pre-IPO RM has not contacted him. He is very irritated and has also raised a grievance via email.
+
+pre -ipo comments: I had a detailed conversation with the client mentioned below, and he is extremely upset regarding his onboarding experience with Rahul Singh.
+
+The client mentioned that at the time of onboarding, he was informed that the fees for 25 years of service would be â¹2,25,000. However, he later came to know that the actual fees were â¹2,00,000. Rahul Singh also acknowledged that the correct fees are â¹2,00,000, but the client still received an invoice for â¹2,25,000 instead of â¹2,00,000.
+
+Additionally, Rahul had informed the client that he would receive a 7% discount on the membership, but the client says he has not received any such discount.
+
+The client further stated that when he asked how he would manage the tranche payments, Rahul advised him to invest in Pre-IPO opportunities, assuring him of 3X returns within one year. Based on this, the client invested â¹5,00,000 in Pre-IPO shares, expecting returns within 4â5 months. Currently, his portfolio is in a loss, and he feels he was wrongly promised and misled.
+
+He is very unhappy with the overall experience.
+
+Kindly arrange a call from your side at the earliest to understand and address the issue.
+
+The cllient constantly marking the emails on PO ids, stating that he was lured by the counsellor that in Pre-ipo he will get 100% to 300% returns yearly for sure whereas he was getting 20% to 25% yearly on his own research.
+
+now he is not answering the calls.
+
+28-Feb-26 : Ops comments: I called the client today.
+
+Briefing:
+
+1. He said that Rahul Singh made multiple promises that he did not fulfill.
+2. He was told tat by investing in pre-IPO, he would profit in 4 months; specifically, if he invests 3 lacs he will get approximately a 1 lac return in 4 months.
+3. He had already invested 10 lacs in the 5x5 strategy and did not have funds to pay the PMP fees either. The counsellor told him that we will review his portfolio and, based on that review, he can invest in pre-IPO. The review never happened.
+4. He took a loan to invest in pre-ipo and now he is suffering a loss of Rs. 5 lacs.
+5. He also said the fees for PMP differed based on the sales pitch and the agreement.
+
+Client's Expectation:
+
+1. The client wants an apology from Rahul Singh.
+2. He wants a refund of his PMP fees.
+3. He needs the assistance with pre-IPO selling.
+
+Obeservation: Inspite of multiple emails sent to the counsellor to speak to the client we did not received any reply from the client, the client has stated in his emails that he has the proof which he will share with SEBI only as he is following the escalation matrix. In that emails he has confirmed that Rahul SIngh (The counsellor) called him and accepted few things. (no response received from Rahul to ops team). The client is expecting a proratar refund. I have also checkedt= the feedback calls comments where from the 1st month only he has stated that Rahul is not answering his calls and next month onwards teh updtes are that he was told by Rahul And Shweta that many things has been told while selling pmp which has not fulfilled but let it be. unhappy with the performance. saying it was told within 2 months elite conclave will conduct. also saying response not getting, 
+
+On the basis of the above we are processing his refund also as per pro-rata the amount comes negative, and as he is a difficult client and may escalate to SEBI, his refund is approved on full refund excluding GST.",INF/NEFT/IN42607052601486/PUNB0029900/67922819 / /JAGDISHDWIV,2026-03-11,jagdishdwivedi11@gmail.com.jpg,130.0,3654465,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+68600.0,12348,80948.0,0.0,6902.0,12758.0,1677879.0,,2.0,,"6902,6902","case fact : on 7 march 2026 : Ritu has spoke with the client, who decided to stop investing in the market because he didn't want to continue. On March 5, 2026, his ENach was deducted via Razorpay, and he is requesting a refund. I've already told him that the first payment is not refundable. Therefore, do not process refund for the first tranche. We need to refund the second tranche, which was obtained via Razorpay Enach. Reason for refund: During the onboarding process, the salesperson told him that if he didn't like the program and didn't want to continue, we would reimburse him deducted tranche through enach. Sales Person - Shikha Singh",Considered in payment list of 17/03/26,,parimalagrawal@yahoo.com.jpg,8.0,3669567,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+28800.0,5184,33984.0,33984.0,7766.0,14045.0,1678844.0,0.0,3.0,,"7766,7766","Client Email : I would like to inform you that an amount of INR 16,992/- has been debited from my account towards the extension of membership fees. However, I do not wish to continue with the membership.
+
+Kindly cancel my membership with immediate effect and initiate the refund process for the deducted amount at the earliest.
+
+Ops comments:  He called on inbound. Performance related have addressed and clarified. However, client said he is investing now in mutual funds and pre-ipo and not directly in equity and has stopped the same. He wants to cancel and proceed ahead with the refund.",INF/NEFT/IN42606557805239/HDFC0000102/67594612 / /RINKESHAGRA,2026-03-06,agarwalrinkesh97@gmail.com.pdf,8.0,3670042,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+25200.0,4536,29736.0,29736.0,7780.0,12819.0,1679008.0,0.0,1.0,,"7780,7780",Case fact : On 27th Feb 2026 : client raised an email : Payment has been done automatically from my account.  havenât want to continue why auto deducted money from account  Please return money and cancel subscription On 5 march 2026 : we tried to connect went unanaswered.                                                                                        Ops comment : 6th March :Received an inbound call from the client requesting a refund. The client stated that she is not using the service and was not aware about the e-NACH debit from her account. Status: Client requesting refund based on the above concern.,INF/NEFT/IN42607153108318/HDFC0000204/67965054 / /HARESHLALJI,2026-03-12,haresh.halai@yahoo.com.png,8.0,3670203,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+73334.0,0,73334.0,0.0,7147.0,13163.0,1684015.0,,4.0,,"7147,7147","The below client is following the ealation matrix he has written to Grievance, PO and complaince and now threaten to complaint to SEBI.
+Client Case Summary:
+
+The client already holds two PMP accounts with us:
+
+ashoksharma.dmg@gmail.com
+
+sharmashruti201988@gmail.com
+Both accounts were onboarded by Kiran Komathe.
+
+In August 2025, the client received a call informing him about a special opportunity for clients below 40 years of age, for which he was required to pay â¹50,000. The payment was made in two tranches. However, he did not receive any further communication regarding this opportunity. After multiple follow-ups, the counsellor informed him that the opportunity did not materialize in his case and assured him of a refund. The client received â¹25,000 in October 2025 and the remaining â¹25,000 in December 2025.
+
+During this period, the client was also facing service-related issues concerning NSE share prices and share transfers, which were allegedly not executed as per the promised rates.
+
+Subsequently, Kiran Komathe contacted the client again and informed him that the Pre-IPO RM, Rishab, was non-responsive. He advised the client to purchase a new PMP subscription in his own name to restart Pre-IPO investments under a new RM. The client was allegedly assured that after three months, he could opt for a refund and that Kiran would assist him in processing it.
+
+Based on this assurance, the client purchased a new PMP subscription in June 2025 under his email ID (sharmaomansh@gmail.com). In September 2025, he began following up for the refund. However, he received different responses each time from Kiran, such as audit in progress or awaiting higher authority approval. In January, Kiran reportedly responded rudely, stating that he would not assist further and that the client should coordinate directly with the finance team, providing a contact number.
+
+Clarifications Required from Kiran Kumathe:
+
+Please provide details regarding the âbelow 40 years opportunity,â including:
+
+Under which account the payment was collected
+
+The nature and structure of this opportunity
+
+Please provide justification regarding the clientâs allegation that the third account was opened solely on the commitment of a full refund after three months.
+
+Clientâs Demand:
+
+The client is requesting a full refund of the subscription purchased under the email ID:
+sharmaomansh@gmail.com
+
+
+Observation: The client sounded genuine; he has invested approximately 80 lakhs in Pre-ipos. 
+
+We tried refund excluding GST but he is not convinced hence processing full refund.",,,sharmaomansh@gmail.com.jpg,130.0,3675016,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+28800.0,5184,33984.0,33984.0,7423.0,13722.0,1687188.0,0.0,3.0,,"7423,7423","On 22nd feb 2026 : Client raised email : Myself S. Rajasuhas (Customer ID: 64443). My registered mobile number is 7732069014. I had subscribed to a 6-month plan, which has now expired. I do not wish to continue the subscription any further. When I received a call from your team regarding the mandate subscription, I clearly informed them of my decision not to continue. However, I was not aware of the procedure to deactivate the mandate. Today, I received a message stating that an amount of â¹16,992/- has been debited from my account. As I do not wish to continue the subscription, I kindly request you to initiate the refund process for the debited amount and confirm the cancellation of the mandate to prevent any future deductions. I look forward to your prompt response and resolution.    OPs comment : On 25th Feb : tried to connnect client but not connect   On 6 March 2026 :Â 
+The client is requesting a refund stating they lack the time to use the service and cannot manage or understand the recommendations due to limited market knowledge. he also mentioned that he was unaware of the e-mandate setup. Status: Client requesting refund based on the above reasons",INF/NEFT/IN42607153108328/UTIB0003380/67965054 / /SAMAYAMANTU,2026-03-12,rajsuhas@gmail.com.pdf,17.0,3677966,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+25200.0,4536,29736.0,29736.0,8155.0,14299.0,1689377.0,0.0,1.0,,"8155,8155",case fact : On 3 march client has raised a email. On 4th Receive an inbound call asking for refund due to e mandate amount deducted saying not using the service. asper client he has already inform before few months.  full refund same day request raised.,INF/NEFT/IN42606557805196/UTIB0003816/67594612 / /AKSHAYLOKHA,2026-03-06,akshaylokhande07@gmail.com.pdf,17.0,3679578,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+28800.0,5184,33984.0,33984.0,7803.0,14360.0,1689595.0,0.0,3.0,,"7803,7803","in Nov. he asked for discontinuation and request for a refund due to he showed dissatisfaction towards recommendation, gave rebuttal but seems he was not happy.",INF/INFT/043734028021/68196970 /SHARADKUMARSHARMA /,2026-03-17,rhtshrm69@gmail.com.jpg,43.0,3679781,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+30600.0,5508,36108.0,36108.0,7706.0,14216.0,1689956.0,0.0,2.0,,"7706,7706","Client email: I was taken your services only for trial the first subscription period. And your team was assured me that without my confirmation services will not renew.
+But now you have deducted the charges, I was said that firstly i will check your growth report then i will decide to continue or not.
+
+you have deducted the subscription charges without my approval. it seems your agent was misguide me and taken the approval in advance.
+So please deactivate the services and refund my money. 
+If i see your growth report is good then i will continue with your services.
+
+Ops comments: The client is he was not aware about the enach, he thorught it is an onboarding process hence he shared teh details. 
+Reason for refund : he has invested 1lc in our recommendation he will wait for 1 year if any improvement then onlt he will come back, informed him for further steps he has to continue the services, he said no need, he will wait and check the performance.",INF/NEFT/IN42606557805191/AUBL0002106/67594612 / /AJITKUMAR,2026-03-06,jt.sngh1@gmail.com.PDF,69.0,3680115,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+28800.0,5184,33984.0,33984.0,7607.0,13933.0,1690330.0,,3.0,,"7607,7607","Case fact : 22nd feb 2026 : client email us : I suppose you'll work blind folded , even after instructions were clearly give and all well communicated yet you'll  go ahead and debit my account with Rs.16,992 /-. PLEASE UNDERSTAND IM NOT HAPPY WITH YOUR SERVICES AND PLS DONT DEBIT MY ACCOUNT WITH RIDICULOUS AMOUNTS, YOUR SERVICES ARENT REQUIRED.I want the reversal done with immediate effect. Any verbal communication required shall be done on the number mentioned in this mail. 
+OPs comment : on 2 march 2026 : Client stated that the amount was debited through e-mandate and she does not wish to continue the service. he mentioned that she had already informed us in December regarding stopping the amount. Client was informed that the refund-related communication will be shared via email for further process.",INF/NEFT/IN42606557805097/BKID0000004/67594612 / /DHARMESHTHA,2026-03-06,pasmurf99@hotmail.com.jpg,17.0,3680471,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+28800.0,5184,33984.0,33984.0,8026.0,14755.0,1690414.0,0.0,3.0,,"8026,8026","case fact : on 3 march 2026 client raised a refund request but in wrong email id (Today I have received notification of debit of Rs 16992 from my account .I had not been informed prior to  deductions. 
+  I am not satisfied with your  recommendations  . Portfol6is at loss. 
+  Your representative had assured  that I will be given  shariah compliant stocks for  invest. You had assured of mine 20% appreciation .
+  I was given mostly non- compliant stocks
+  Kindly refund amount deducted from my account immediately)                                                               Ops comment : vidhi spoken with the client receive inbound call on 9 march : He stated he has a medical emergency and asked for a T2 refund. as per the process providin full refund.",INF/NEFT/IN42607656321120/BKID0000060/68196970 / /DamudiAbdul,2026-03-17,abdulbdamudi@gmail.com.png,1.0,3680542,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+22824.0,0,22824.0,0.0,8317.0,15309.0,1698901.0,0.0,3.0,,"8317,8317","Client email : This is Aasif Tanwar msging you regarding the premium membership program. I had given a deep thought regarding its continuation, but very sorry to tell you that I am come to the conclusion that I am no longer in a position to continue this program for my business in equity market due to some unforeseen reason arises on my current business here. So I kindly request you to consider it urgently.
+I kindly want to make a note that if possible the amount 203000 invested in pre ipo is also needs to be withdrawn.
+
+Ops Comments: Spoken to the client he said that he works out of India and there now expenses are increased and he won't be able to invest anymore. I suggested continuing till the next tranche as there will be less or NO refund as per the refund policy. The client said the counsellor told him to try the services for 3 months and if not satisfied he can go for a refund, and told him agreed on the same but that does not mean that full refund will be processed. He said that he is also a salesman and it is a wrong practice. I told him for his satisfaction  I will go through the call recording and will try to help him for the refund. He said OK and said to send the amount for refund whatever applicable.
+
+Sales counsellor comments: I had a  discussion with the client regarding the continuation of services. As explained by him, he currently does not have surplus funds available due to ongoing business commitments, and financial constraints have become a major concern. His decision to discontinue is purely based on fund limitations and is not related to returns or service satisfaction.
+
+The client has requested a pro-rata refund as per the agreement terms, since the paid amount has not been fully utilized and he will not be continuing further with the services to which i have told him will check with my team you may drop an email for the same.
+
+Kindly review the case and assist with the necessary steps for processing the applicable pro rata  refund.
+
+9-Feb-26 : A prorata refund email sent to the client for Rs. 11,412/-",Considered in payment list of 17/03/26,,aasiftanwar25@gmail.com.jpg,182.0,3687670,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+67600.0,12168,79768.0,0.0,8684.0,15985.0,1701175.0,0.0,2.0,,"8684,8684","Case Facts: Received an email from client that Please note that due to misunderstanding I have doubly paid the premium membership amount , one transaction of value 39884 Rs was manually done on 10th March 26 and another one was auto deduction through bank today on 11th March 26, reference bank mail attached here with.
+So please arrange to return my manual payment back to my account at the earliest.
+Ops comments: The client stated that he received a payment reminder email, paid using the link provided in that email on 10th March 2026 and his account was debited via auto-debit the next day (11th Mar 2026). Hence, process the refund under the no-loss category.",Considered in payment list of 17/03/26,,pankaj.bajpai@rediffmail.com.jpg,76.0,3689409,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+28000.0,5040,33040.0,0.0,9616.0,17823.0,1703162.0,0.0,1.0,,"9616,9616","case fact : on 4th march 2026 client want 2 tranche refund I m not satisfied with the services and is quite different from what I was told when I became the member.
+So please return the amount paid on 4 March.
+Sorry for the inconvenience.  
+Ops comment:The client said he isn't aligned with our investment strategy, not convinced with the stocks suggested.Â As each hit, a full refund will be processed.",Considered in payment list of 18/03/26,,himanshulakdawala3011@gmail.com.jpg,45.0,3691209,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+25200.0,4536,29736.0,29736.0,9074.0,17108.0,1707603.0,0.0,1.0,,"9074,9074","Client email : My name is Vinayak Sarangale 
+Contact Number 9820818862
+I am writing this email regarding refund of  INR 14868. which has got debited today 27th February 2026 by E Mandate
+
+I have already informed that to close trading advisory
+
+Kindly look into the same and would like to request you to process for refund 
+
+Ops comment:  Clinet not answering the call owever, on the basis of his email, as the reason is mentioned, processing the full refund.",INF/NEFT/IN42607052601472/SBIN0003428/67922819 / /VINAYAKSARA,2026-03-11,vinayak.sarangale@yahoo.com.jpeg,183.0,3695049,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+66660.0,0,66660.0,66660.0,9300.0,17406.0,1710845.0,0.0,3.0,,"9300,9300","Case facts:
+Welcome call completed by Jamema Ratnam on 22-Dec-2025 and no issue raised by client. Additional Comment - Welcome call completed with the client. Product: PMP Explained product and tenure; advised client to check the agreement copy confirmed client understanding - Yes Confirmed investible surplus allocation: 5in5 â Rs. ____ MPO â Rs. ____ Pre-IPO â Rs. ____ Profiling questions successfully completed. Equities : 5-6 lac , wealth creation in long term, Civil engineer Checked for any additional subscription with Equentis. no Asked if any sales representative is in touch post-subscription purchase. Explained Checked whether any commitments were given: No issues or concerns reported by the client. Support line details shared with the client.
+Now the client is asking for a refund due to a fund issue and also he mentioned on call that you have forced him to take the subscription and his not state of mind at that time. 
+Kindly check with the client and provide an update on the same.",INF/INFT/043600697441/67594612 /JATSHYAMSUNDERSHIVRA/,2026-03-06,sam9922076050@gmail.com.png,187.0,3698050,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+68858.0,0,68858.0,0.0,9266.0,17364.0,1714149.0,0.0,2.0,,"9266,9266","On 19th Feb : client raised email on support id : Dear Equentis Team,
+
+This is regarding my PMP services subscription taken in January. Earlier, I had also opted for your Retail Services (5in5 + MPO), but due to serious medical issues, I was never able to make any investments.
+
+Despite my situation, I completed the e-mandate process after continuous calls and repeated follow-ups from your team. However, I am clearly stating now that I am not in a position to continue with PMP services. I am facing ongoing medical and family emergencies, and it is absolutely impossible for me to invest a bulk amount in Pre-IPO opportunities. Under these circumstances, it is completely unreasonable to expect me to continue the service. Therefore, I am demanding an immediate refund of my PMP subscription fees.Additionally, I hereby instruct you to immediately cancel the e-mandate registered against my bank account and ensure that no further auto-debits are processed. I require written confirmation of the e-mandate cancellation at the earliest. Please treat this matter as urgent and confirm both the refund process and mandate cancellation without any unnecessary delays or complications.
+
+OPs comment : we tried to call but it went unanswered. Sale comment awaited
+
+21-Feb-26: CS team: I contacted a client for a welcome call, he stated that he wants to cancel the subscription due to funding requirements and a lack of fresh funds to invest in our recommendation.Also, he assured that he will continue services with Equentis in future and he doesn't have any issues or complaints about Equentis. As a client, he oppologize to me as he unable to continue investment journey with Equentis.Based on the facts above, process the service cancellation and refund accordingly.
+
+24th Feb : Zeeshan Ahmed: Sales Feedback: Hi team , he was very interested with PMP and pre ipo investment opportunity , he told he will start pre ipo investment immediately  , but from pre ipo team they have given him  a huge investment plan , he is not responding to calls post this huge investment plan now he is mentioning medical emergency as a reason thats it.
+
+24-Feb-26: Ops sent an email for bank details as per the refund policy. - Rs. 6,928/- 
+However, an email sent to pre-ipo team for the explaination.",Considered in payment list of 18/03/26,,dasaluja21@gmail.com.jpg,185.0,3700080,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+31996.0,0,31996.0,31996.0,98733.0,86439.0,1792068.0,44536.0,4.0,,"98728,98729,98730,98731,98732,98733,98728,98729,98730,98731,98732,98733","Ops Comments : I have spoken to the client:
+
+Reason for refund.
+
+1. He currently does not have sufficient funds available for further investment.
+
+2. He has invested in only one MPO recommendation so far, which is presently at a loss.
+
+3. He also maintains demat accounts with 2â3 other firms such as Zerodha, who are already providing him with recommendations.
+
+4. He has stated that he will not be able to make the upcoming tranche payment.
+
+5. He is requesting a refund on a pro-rata basis, stating that the same was communicated to him by the counsellor and the counsellorâs senior.
+
+6. I tried to explain to him that it is too early to evaluate the performance of the services. I also highlighted that our approach is different from others, as we provide detailed research reports and our recommendations are carefully analysed by experienced professionals. However, he remains firm on seeking a refund.
+I told him will check the call recording accordingly will communicate.
+
+Ops comments: As per our meeting held on 19th Feb withSales bangaore, we came to know that the team did not know about the breakage charges and they used to inform the client on pro-rata basis, hence processing as per prorata. Informed the same to the client.",INF/NEFT/IN42607656320607/IDFB0081784/68196970 / /ShaikKhalee,2026-03-17,ahamed_bsc@yahoo.co.in.pdf,187.0,3714341,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+65734.0,11832,77566.0,0.0,87261.0,84036.0,1789665.0,37506.0,4.0,,"87259,87260,87261,87259,87260,87261","SEBI Escalated: I hereby formally declare my intention to cancel and unsubscribe from any and all memberships that I hold with Equintis, with immediate effect.
+
+The decision to terminate my membership arises from multiple concerns, including but not limited to:
+
+Customer support that I have found to be unsatisfactory and not user-friendly; and
+
+The frequent promotion of additional paid plans and services appears primarily focused on additional monetary commitments.
+
+In accordance with this cancellation request, I respectfully seek the refund of the proportionate amount of subscription fees that remain unused, after deducting any legitimate service charges applicable to services that have already been utilized.
+
+For clarity, my payment history with Equintis is summarized below:
+
+â¹38,783 â Recently paid; no services have been utilized under this payment.
+
+â¹5,000 â Paid toward a Pre-IPO booking facility; however, no IPO booking was made under this plan.
+
+â¹24,780 â Paid on 10 October 2025 for the â5-5â and âMispriced Opportunityâ plans as part of the annual subscription.
+
+As per the agreement clause referenced on Page 11 of 38, a proportionate refund is payable to the client upon cancellation. Based on this provision, I request the refund of the following amount: ( â¹38,783 + â¹5,000 + â¹12,390 (representing the unused half of the â¹24,000 annual subscription)
+
+Kindly process the refund of the above-mentioned proportionate amount at the earliest.
+
+Additionally, I request that all personal and account-related data associated with my membership be permanently removed from your data repositories, in accordance with applicable data protection and confidentiality standards. I also request written confirmation that my data will not be disclosed, misused, or handled in any manner inconsistent with these obligations.
+
+I would appreciate written acknowledgment of this request and confirmation of the actions taken regarding membership cancellation, refund processing, and data deletion.
+
+Ops comments: 1. The fee are tooo much, if he investing 5 lacs then  approx 3 lacs is fees only.
+2. Every time he ges the calls for different product and get pressurised. In pressure he took the premium membership but now he realized it.
+3. He said its not customer friendlty product as the research based company should explain where, how and when to invest. - I explained him that everything is available in dashboard, he is with us since Oct. '25 where we did a welcome call and feedback calls. I asked him if I can arrange a call for the same but he denied.
+4. He i not happy with the returns too, informed him its very early judge and expect the return.
+5. Later he said that if we can pause the subscription and then start whever he asks informed him not possible still he was insisting I told him will call back.
+
+NOTE: For refund I clearly explained him that there will be NO refund for Combo services, however for PMP we can process the full refund.
+
+Observation: The fees collected in Feb. 24, 2026, but the activation happened in 7th March '26 and the welcome call done on 6th March '26, counsellor not replying for the reson for delay in activation.
+
+Counsellor Comments: Please note the timeline of the clientâs investment process for your reference:
+
+The client made the first payment on 9th February.
+The remaining payment was completed on 24th February.
+The payment was approved on 25th February.
+The client completed the e-mandate on 4th March.
+
+Additionally, the client had received a call from the Pre-IPO team beforehand so the investment process could begin without delay.
+The client also informed me that he is a government employee and therefore wanted to verify certain formalities before proceeding with the investment. He mentioned that he would review the requirements and then decide how to start the investment.
+Therefore, there has been no delay on my end, and the process moved forward according to the clientâs confirmation and internal approvals.
+
+Ops comments 16-3.26 : I spoke to the client today and informed him that pause of services is not possible. We agreed to fully refund the PMP fees, and he said that he has paid Rs. 5000/- for pre-ipo, told him will arrange a call back.",Process today  of 17/03/26,,indraiict@gmail.com.pdf,62.0,3716691,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+117600.0,21168,138768.0,138768.0,100197.0,86742.0,1792371.0,45045.0,4.0,,"100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197,100192,100193,100194,100195,100196,100197","On 10th Feb 2026: CS team raised a concern: The mentioned client has requested a refund on a service call as wants a refund of 1st tranche payment. He mentioned that he is having issues with mobile application from the day 1. I already raised this query back in november but the client stated that this issue has not been resolved till date. Right now he is demanding a refund as he did not use this service. If he is not eligible for refund then he wants a Mail from equentis for the explanation. 
+Ops Comments: As per checking he is not eligible for a refund as his onboarding was done in the month of Jun 2025
+
+The client below has been facing a login issue since renewing their services. Based on my checks, he raised these concerns multiple times, however we could not find any issue with his login and we also asked him to share the screenshots. He said the error message vanished so quickly that he couldn't take a screenshot because he is 72 years old and not very tech-savvy. 
+
+In my conversation with the client today, I personally tried logging in through the dashboard and found the error. The screenshot is below.I informed the client that we will check and get back to him.
+
+image.png
+
+
+Observations: Based on my checks during service calls, most of the updates indicate, ""He is not able to use the services due to a login issue."" Here is the detailed issue that needs to be found.
+
+Following my discussion with Samant on the Tech team, I learned that because this is an old client (from 2017), he must first log in through the website to verify his email. 
+
+Action taken: Samant will make the necessary changes on the backend. He can log in to the dashboard now.
+
+Called again: The client confirmed that he can log in now. The client now expects an extension of services. I informed him that it is not possible, he may opt for a refund and re-onboard. However I tried the refund amount excluding GST but he is not ready for that. We approved the full refund because it was our fault. Also he has threaten to escalate to SEBI.
+
+Remedial measures:
+
+@Samant Kumar : Kindly get the details of the client who are facing this issue for the same reason. Kindly confirm if any communication was done with these clients stating they have to login through the website first.
+
+@Sneha Iyer - Please address the team to prob and get the maximum details from the client (e.g., what the app looks like, what is flashing on the screen, the first step they took, etc.) On;y updating the system will not work.
+@Opswealth Equentis The above also applies to you.",INF/NEFT/IN42606557805161/IDFB0060103/67594612 / /RajeshMehta,2026-03-06,rajeshmehta1@gmail.com.jpg,32.0,3717143,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
+83334.0,0,83334.0,0.0,114479.0,91660.0,1797289.0,15599.0,4.0,,"114478,114479,114478,114479","6-Feb-26 - Email from the client.
+
+Reason : Financial crunches
+
+ops comment :  due to lack of fund client is not able to continue he is asking for refund . as per heena maam without gst refund will be given",Considered in payment list of 18/03/26,,cscvlegourangkocha@gmail.com.jpg,187.0,3745412,FAILED,"column ""temp_payment_ids"" of relation ""refund"" does not exist
+LINE 34:     temp_payment_ids,
+             ^
+"
