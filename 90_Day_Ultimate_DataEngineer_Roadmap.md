@@ -1,7 +1,7 @@
 # 🚀 The Ultimate 90-Day Data Engineer Transition Roadmap
 *Prepared by: Senior Staff Data Engineer & FAANG Interviewer*  
 *Target Date*: June 25, 2026 – September 22, 2026 (90 Days)  
-*Candidate Profile*: Ratan (Data Engineer, Equentis Wealth Advisory, ~1 yr 10 mo experience)  
+*Candidate Profile*: suraj (Data Engineer, Equentis Wealth Advisory, ~1 yr 10 mo experience)  
 *Goal*: Transition to Mid-Level Cloud + Big Data Engineer in India (Target: 12–15 LPA)  
 *Study Capacity*: 20 hours/week (Weekdays: 3 hrs/day max | Weekends: 5-6 hrs/day)  
 
@@ -10,12 +10,12 @@
 ## SECTION 1 — Independent Gap Analysis & Strategic Valuation
 
 ### 1.1 First-Principles Profile Evaluation
-Ratan is not starting from scratch. He possesses a highly valued, practical foundation that many candidates with 2 years of experience lack:
-* **Production SQL and PostgreSQL Optimization (5/5)**: Ratan understands index design (composite, partial), query execution plans, and sargable queries. This is a massive filter-clearer in initial interview rounds.
-* **Real Production Migration Experience**: Having owned the migration of **154GB PostgreSQL to BigQuery** (10L+ leads, 1Cr+ activity logs) gives Ratan a major talking point. In interviews, this is "gold" because it is a real-world project with actual business impact.
+suraj is not starting from scratch. He possesses a highly valued, practical foundation that many candidates with 2 years of experience lack:
+* **Production SQL and PostgreSQL Optimization (5/5)**: suraj understands index design (composite, partial), query execution plans, and sargable queries. This is a massive filter-clearer in initial interview rounds.
+* **Real Production Migration Experience**: Having owned the migration of **154GB PostgreSQL to BigQuery** (10L+ leads, 1Cr+ activity logs) gives suraj a major talking point. In interviews, this is "gold" because it is a real-world project with actual business impact.
 
 ### 1.2 Identified Gaps & High-ROI Focus Areas
-To jump from 6.2 LPA to a 12–15 LPA Big Data / Cloud DE role at top tier analytics firms (Tiger, Fractal, Tredence) or investment/credit card firms (JPMC, Amex), Ratan must shift from being a "SQL/Scripting Engineer" to a **"Distributed Systems & Cloud Architect."**
+To jump from 6.2 LPA to a 12–15 LPA Big Data / Cloud DE role at top tier analytics firms (Tiger, Fractal, Tredence) or investment/credit card firms (JPMC, Amex), suraj must shift from being a "SQL/Scripting Engineer" to a **"Distributed Systems & Cloud Architect."**
 
 ```mermaid
 graph TD
@@ -27,16 +27,16 @@ graph TD
 ```
 
 #### The Gap Matrix:
-1. **PySpark & Spark Internals (1/5 → 4.5/5)**: Ratan has minimal Spark experience. Mid-level JDs at Tiger/Tredence assume deep familiarity with Spark's execution engine, query optimizations (broadcast joins, caching, AQE), and partition tuning.
-2. **Orchestration with Airflow (0/5 → 4/5)**: Re-running scripts manually or via local crontabs does not scale. Ratan needs to speak managed orchestration (Cloud Composer/Airflow DAGs, TaskFlow API, sensors, and alerting).
+1. **PySpark & Spark Internals (1/5 → 4.5/5)**: suraj has minimal Spark experience. Mid-level JDs at Tiger/Tredence assume deep familiarity with Spark's execution engine, query optimizations (broadcast joins, caching, AQE), and partition tuning.
+2. **Orchestration with Airflow (0/5 → 4/5)**: Re-running scripts manually or via local crontabs does not scale. suraj needs to speak managed orchestration (Cloud Composer/Airflow DAGs, TaskFlow API, sensors, and alerting).
 3. **Python OOP & Production Practices (2/5 → 4/5)**: Scripting in Python is easy; writing modular, class-based, testable (`pytest`) ETL code with configuration management (YAML/dotenv) is what FAANG and product engineering teams look for.
-4. **Cloud Infrastructure (GCP & BigQuery, 2.5/5 → 4.5/5)**: Ratan knows BigQuery basics but needs to master advanced BigQuery storage optimization (partitioning, clustering, slot budget, cost control).
-5. **Data System Design (1/5 → 4/5)**: Ratan has built pipelines but cannot yet drive a 45-minute architectural interview discussing distributed state, storage-compute separation, and micro-batching.
+4. **Cloud Infrastructure (GCP & BigQuery, 2.5/5 → 4.5/5)**: suraj knows BigQuery basics but needs to master advanced BigQuery storage optimization (partitioning, clustering, slot budget, cost control).
+5. **Data System Design (1/5 → 4/5)**: suraj has built pipelines but cannot yet drive a 45-minute architectural interview discussing distributed state, storage-compute separation, and micro-batching.
 
 ### 1.3 Hidden Risks
-* **The DSA Rabbit Hole**: Ratan's DSA is 1/5. He might feel tempted to spend 2 hours a day on LeetCode Medium/Hard. **This is a low-ROI trap.** Data engineering roles at Tiger Analytics, Fractal, and Tredence do not test heavy graph algorithms or dynamic programming. They test advanced SQL, Spark DataFrame API, and Python data structure manipulations. Keep DSA limited to simple array, string, and hashing operations (LeetCode Easy).
+* **The DSA Rabbit Hole**: suraj's DSA is 1/5. He might feel tempted to spend 2 hours a day on LeetCode Medium/Hard. **This is a low-ROI trap.** Data engineering roles at Tiger Analytics, Fractal, and Tredence do not test heavy graph algorithms or dynamic programming. They test advanced SQL, Spark DataFrame API, and Python data structure manipulations. Keep DSA limited to simple array, string, and hashing operations (LeetCode Easy).
 * **Tutorial Hell**: Watching tutorials without building leads to failure in live coding rounds. The roadmap must enforce a "Build-First" approach.
-* **Negotiation Anchor Trap**: Recruiters will try to anchor Ratan's new offer to his current 6.2 LPA salary. Ratan must anchor on his scale metrics (154GB migration, 1Cr+ activities) and the market rate for the role.
+* **Negotiation Anchor Trap**: Recruiters will try to anchor suraj's new offer to his current 6.2 LPA salary. suraj must anchor on his scale metrics (154GB migration, 1Cr+ activities) and the market rate for the role.
 
 ### 1.4 Market Valuation (India, 2026)
 * **Market Readiness Score (Current)**: **3.5/10** (Will pass SQL, but fail Spark/Airflow/System Design coding rounds).
@@ -50,7 +50,7 @@ graph TD
 
 ## SECTION 2 — Calendar-Based 12-Week Roadmap (20-Hour Weekly Budget)
 
-To fit Ratan's **20 hours/week** budget while respecting his weekday and weekend limits, the daily study cadence is structured as follows:
+To fit suraj's **20 hours/week** budget while respecting his weekday and weekend limits, the daily study cadence is structured as follows:
 * **Thursday**: 3 hours (New concept learning & videos)
 * **Friday**: 3 hours (Hands-on CLI/notebook coding)
 * **Saturday**: 5 hours (Hard core project building & coding)
@@ -565,7 +565,7 @@ Update your LinkedIn Profile as follows:
 Do not rely on clicking "Easy Apply" on LinkedIn. Apply via referrals:
 * **Step 1**: Find engineers or engineering managers at target companies (Tiger Analytics, Fractal, Tredence) on LinkedIn.
 * **Step 2**: Send a short, professional connection request:
-  > "Hi [Name], I'm a Data Engineer focusing on PySpark, GCP, and Airflow pipelines. I saw your team works on large-scale analytics platforms. I recently built a GCP batch ingestion platform (using Dataproc, Airflow, and dbt) and would love to connect and chat about your data engineering patterns. If you have open roles on your team, I'd appreciate a referral. Thanks, Ratan."
+  > "Hi [Name], I'm a Data Engineer focusing on PySpark, GCP, and Airflow pipelines. I saw your team works on large-scale analytics platforms. I recently built a GCP batch ingestion platform (using Dataproc, Airflow, and dbt) and would love to connect and chat about your data engineering patterns. If you have open roles on your team, I'd appreciate a referral. Thanks, suraj."
 * **Step 3**: Track all applications in a spreadsheet (Company, Position, Date Applied, Contact Person, Status).
 
 ### 10.4 Target Metrics
