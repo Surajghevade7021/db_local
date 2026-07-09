@@ -89,11 +89,11 @@ WHERE l.is_active
   AND NOT (23 = ANY(l.sub_product_ids))  
   AND l.status_id < 5
   AND l.substatus_id = ANY(%s) 
-   AND NOT (
-       l.substatus_id IN (10,11)
-       AND COALESCE(l.updated_at, l.created_at) <= NOW() - INTERVAL '61 days'
-     )
-ORDER BY l.lead_id
+  -- AND NOT (
+   --    l.substatus_id IN (10,11)
+   --    AND COALESCE(l.updated_at, l.created_at) <= NOW() - INTERVAL '61 days'
+   --  )
+ORDER BY l.substatus_id, l.lead_id
 LIMIT %s;
 """
 
@@ -176,7 +176,6 @@ try:
             """
             UPDATE lead
             SET rm_id=%s
-               -- ,updated_at=NOW()
             WHERE lead_id=%s
         """,
             (rm_id, lead_id),
