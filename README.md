@@ -1,574 +1,520 @@
-# 🚀 The Ultimate 90-Day Data Engineer Transition Roadmap
-*Prepared by: Senior Staff Data Engineer & FAANG Interviewer*  
-*Target Date*: June 30, 2026 – September 28, 2026 (90 Days)  
-*Candidate Profile*: Ratan (Data Engineer, Equentis Wealth Advisory, ~1 yr 10 mo experience)  
-*Goal*: Transition to Mid-Level Cloud + Big Data Engineer in India (Target: 12–15 LPA)  
-*Study Capacity*: 20 hours/week (Weekdays: 3 hrs/day max | Weekends: 5-6 hrs/day)  
+# 🚀 The Ultimate 90-Day Data Engineering Transition Roadmap — Execution Edition
+
+> **Prepared as:** A practical, evidence-based Data Engineering mentoring and implementation plan  
+> **Dates:** **Thursday, 12 November 2026 → Tuesday, 9 February 2027** (90 consecutive days)  
+> **Candidate:** Working Data Analyst / aspiring Data Engineer; approximately 3 years of data experience  
+> **Target roles:** Data Engineer · Cloud Data Engineer · Big Data Engineer (India)  
+> **Career aspiration:** ₹12–15 LPA; **not** a promised outcome  
+> **Capacity:** **1 hour minimum/day, 2 hours preferred/day** (~90–150 hours across the program)  
+> **Primary stack:** Linux · PostgreSQL/SQL · Python · Git · Docker · PySpark · Airflow · GCP/BigQuery  
+> **Secondary exposure:** AWS mappings · Delta Lake · dbt/Kafka concepts if time allows
+
+> **Historical reference:** This document intentionally follows the **10-section, detailed weekly-goal, daily-schedule, practice-task, deliverable, revision and portfolio-project format** of the June 2026 Claude-generated roadmap. It is a **new plan**, recalibrated to your November 2026 baseline and available time. The old roadmap is a plan, not proof that its exercises were completed.
 
 ---
 
 ## SECTION 1 — Independent Gap Analysis & Strategic Valuation
 
-### 1.1 First-Principles Profile Evaluation
-Ratan is not starting from scratch. He possesses a highly valued, practical foundation that many candidates with 2 years of experience lack:
-* **Production SQL and PostgreSQL Optimization (5/5)**: Ratan understands index design (composite, partial), query execution plans, and sargable queries. This is a massive filter-clearer in initial interview rounds.
-* **Real Production Migration Experience**: Having owned the migration of **154GB PostgreSQL to BigQuery** (10L+ leads, 1Cr+ activity logs) gives Ratan a major talking point. In interviews, this is "gold" because it is a real-world project with actual business impact.
+### 1.1 First-principles profile evaluation
 
-### 1.2 Identified Gaps & High-ROI Focus Areas
-To jump from 6.2 LPA to a 12–15 LPA Big Data / Cloud DE role at top tier analytics firms (Tiger, Fractal, Tredence) or investment/credit card firms (JPMC, Amex), Ratan must shift from being a "SQL/Scripting Engineer" to a **"Distributed Systems & Cloud Architect."**
+You are **not starting from zero**. Your professional experience includes SQL, PostgreSQL, Python-assisted ETL, GCS, BigQuery Bronze/Silver/Gold pipelines, incremental loads, reconciliation and CMEK work. However, **work exposure is not equivalent to verified independent implementation**. The goal is to reproduce the reasoning and code from a blank editor and troubleshoot failures without copying answers.
+
+### 1.2 Diagnostic evidence (12 November 2026)
+
+| Area | Evidence | Assessment | Priority |
+|---|---|---|---|
+| SQL cardinality | Correctly answered 5 activity logs × 3 payments = 15 rows | Basic join multiplication recognized; explanation and robust SQL need testing | High |
+| SQL windowing | Mentioned `ROW_NUMBER` and descending order | Partial; partitioning and left-join behavior unverified | High |
+| Python | Lists/dicts partly explained; generator confused with executors | Fundamentals and independent code require assessment | **Critical** |
+| ETL restart | Suggested UPSERT and logs | Good instinct; idempotency, checkpoints and transaction boundaries unverified | High |
+| Linux/cron | Correctly suggested logs and environment/package differences | Good starting reasoning | Medium |
+| Linux disk | Answered `ps aux` for disk-full error | Need `df -h`, `df -i`, `du -sh`, `find` and safe cleanup practice | **Critical** |
+| Spark | Shuffle and skew not understood | Begin with architecture and simple diagrams before tuning | **Critical** |
+| Airflow | Identified duplicates on retry | Correct risk; must implement retry-safe DAG | High |
+| BigQuery CMEK | Identified BigQuery service agent and key permissions | Useful production intuition; validate exact roles/scopes | Medium |
+| Reconciliation | Suggested row counts and sums | Good foundation; need key-level anti-joins, exceptions and guarantees | High |
+| Docker networking | Not attempted | Learn service DNS, localhost and port mapping | High |
+
+**Written reasoning baseline:** **56/120 = 46.7% (≈47/100)**. The previous informal 55/100 figure was not the normalized arithmetic score; **47/100 is the baseline used here**. Coding assessment **pending**. No skill is marked mastered merely from this quiz.
+
+### 1.3 High-ROI focus and hidden risks
+
+1. **Independent Python coding** before advanced orchestration: generators, dictionaries, reusable functions, file handling, exceptions, tests.
+2. **Linux troubleshooting**: distinguish disk, inode, memory, CPU, permission and cron environment failures.
+3. **Distributed processing fundamentals**: driver, executors, partitions, shuffle, skew, Spark UI.
+4. **Correctness before speed**: zero missing payments, no accidental duplicate inserts, deterministic replay and reconciliation.
+5. **Build-first discipline**: tutorials are supporting material, not deliverables.
+6. **Avoid fabricated results**: never claim 10M records/day, 35% savings, or a 9/10 readiness score without measured evidence.
+
+### 1.4 Success definition
+
+At the end of 90 days, the desired evidence is **three reproducible projects**, clear technical explanations, tests, documented failures/recoveries and scored interview practice. Job readiness and salary outcomes depend on the demonstrated work and hiring market, not calendar completion.
+
+---
+
+## SECTION 2 — Calendar-Based 90-Day Roadmap (1–2 Hours Daily)
+
+### 2.1 Daily study cadence
+
+| Time available | Concepts | Independent implementation | Testing/debugging | Notes + Git commit |
+|---|---:|---:|---:|---:|
+| **2 hours (preferred)** | 20 min | 70 min | 20 min | 10 min |
+| **1 hour (minimum)** | 10 min | 35 min | 10 min | 5 min |
+
+**Rules:** No automatic checkmarks. Complete means runnable code or written proof + tests + a clear explanation. Every seventh day is a review/assessment. If a day is missed, record it honestly and replan rather than backdating completion. Weekend time can be used for catch-up, but the plan does not assume 5–6-hour weekends.
+
+### 2.2 Weekly objectives and checkpoints
+
+| Week | Dates | Focus | End-of-week proof |
+|---|---|---|---|
+| 1 | Nov 12–18 | Diagnostic + Linux | Payment script and terminal troubleshooting |
+| 2 | Nov 19–25 | SQL + PostgreSQL | Correct SQL, query plans, reconciliation |
+| 3 | Nov 26–Dec 2 | Python foundations | Modular scripts and tests |
+| 4 | Dec 3–9 | **Project 1** Python/Postgres ETL | Retry-safe batch pipeline |
+| 5 | Dec 10–16 | Git + Docker | Reproducible local environment |
+| 6 | Dec 17–23 | Spark core | DataFrame jobs + execution plans |
+| 7 | Dec 24–30 | **Project 2** Spark optimization | Measured skew/shuffle investigation |
+| 8 | Dec 31–Jan 6 | Airflow | Idempotent DAG and recovery test |
+| 9 | Jan 7–13 | GCP + BigQuery | Load, optimize and reconcile synthetic data |
+| 10 | Jan 14–20 | Architecture + AWS concepts | Design trade-off documents |
+| 11 | Jan 21–27 | Delta + reliability | MERGE, data quality and replay tests |
+| 12 | Jan 28–Feb 3 | **Project 3** GCP capstone | End-to-end demonstrable pipeline |
+| 85–90 | Feb 4–9 | Interview + portfolio | Final practical and job-readiness review |
+
+### 2.3 Exact day-by-day schedule
+
+Each row defines the **day, date, focus, independent hands-on assignment and expected evidence file**. The final column is intentionally unchecked.
+
+
+### WEEK 01 — Linux foundations and baseline
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 01 · 12 Nov 2026 | **Baseline coding assessment** | Write payment deduplication and null-handling script without pandas | `assessments/day-01/payment_validation.py` | ☐ |
+| 02 · 13 Nov 2026 | **Linux filesystem** | Navigate, create, move and inspect directories; document absolute vs relative paths | `linux/day-02-filesystem.md` | ☐ |
+| 03 · 14 Nov 2026 | **Files and text tools** | Use cat, less, head, tail, grep, find, sort, uniq on sample ETL logs | `linux/day-03-log-analysis.sh` | ☐ |
+| 04 · 15 Nov 2026 | **Permissions and users** | Practise chmod, chown concepts, umask and executable scripts | `linux/day-04-permissions.md` | ☐ |
+| 05 · 16 Nov 2026 | **Processes and resources** | Investigate ps, top, free, uptime, kill and disk usage df/du | `linux/day-05-resource-check.sh` | ☐ |
+| 06 · 17 Nov 2026 | **Shell scripting** | Build argument-driven script with exit codes, variables and error handling | `linux/day-06-healthcheck.sh` | ☐ |
+| 07 · 18 Nov 2026 | **Weekly Linux assessment** | Diagnose disk-full and cron failures; review independent coding | `assessments/week-01/README.md` | ☐ |
+
+### WEEK 02 — SQL and PostgreSQL engineering
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 08 · 19 Nov 2026 | **Join cardinality** | Reproduce 5 logs × 3 payments and explain row multiplication | `sql/day-08-join-cardinality.sql` | ☐ |
+| 09 · 20 Nov 2026 | **Window functions** | Latest payment per lead using ROW_NUMBER and LEFT JOIN | `sql/day-09-latest-payment.sql` | ☐ |
+| 10 · 21 Nov 2026 | **Advanced SQL** | Practise CTEs, conditional aggregation and deduplication | `sql/day-10-advanced.sql` | ☐ |
+| 11 · 22 Nov 2026 | **PostgreSQL indexes** | Create indexes; compare EXPLAIN ANALYZE plans | `sql/day-11-explain.md` | ☐ |
+| 12 · 23 Nov 2026 | **Transactions** | Demonstrate BEGIN, COMMIT, ROLLBACK and constraints | `sql/day-12-transactions.sql` | ☐ |
+| 13 · 24 Nov 2026 | **Reconciliation SQL** | Compare source and destination counts, sums, nulls, IDs | `sql/day-13-reconciliation.sql` | ☐ |
+| 14 · 25 Nov 2026 | **Weekly SQL assessment** | Solve an unseen payments-and-activity-log scenario | `assessments/week-02/README.md` | ☐ |
+
+### WEEK 03 — Python foundations for independent ETL
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 15 · 26 Nov 2026 | **Python collections** | Implement lists, dicts and sets for payment processing | `python/day-15-collections.py` | ☐ |
+| 16 · 27 Nov 2026 | **Functions and modules** | Refactor validation into testable functions and modules | `python/day-16-functions.py` | ☐ |
+| 17 · 28 Nov 2026 | **Iterators and generators** | Stream synthetic rows with yield; explain memory use | `python/day-17-generators.py` | ☐ |
+| 18 · 29 Nov 2026 | **Files and exceptions** | Read CSV/JSON; handle malformed records with exceptions | `python/day-18-files.py` | ☐ |
+| 19 · 30 Nov 2026 | **Logging and configuration** | Add structured logs, environment configuration and exit codes | `python/day-19-logging.py` | ☐ |
+| 20 · 01 Dec 2026 | **Unit testing** | Write pytest tests for duplicates, nulls and invalid amounts | `python/day-20-tests.py` | ☐ |
+| 21 · 02 Dec 2026 | **Weekly Python assessment** | Build a small independent CSV-to-clean-CSV pipeline | `assessments/week-03/README.md` | ☐ |
+
+### WEEK 04 — Project 1 — PostgreSQL to Python ETL
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 22 · 03 Dec 2026 | **Project 1 design** | Define source schema, target schema, failure modes and acceptance tests | `projects/01-python-postgres-etl/README.md` | ☐ |
+| 23 · 04 Dec 2026 | **PostgreSQL extraction** | Extract rows in bounded batches using a cursor | `projects/01-python-postgres-etl/extract.py` | ☐ |
+| 24 · 05 Dec 2026 | **Validation and transform** | Validate schema, types, nulls and duplicate IDs | `projects/01-python-postgres-etl/transform.py` | ☐ |
+| 25 · 06 Dec 2026 | **Load and idempotency** | Implement upsert and restart-safe batch handling | `projects/01-python-postgres-etl/load.py` | ☐ |
+| 26 · 07 Dec 2026 | **Checkpoint and retry** | Persist watermark/checkpoint and retry transient errors | `projects/01-python-postgres-etl/checkpoint.py` | ☐ |
+| 27 · 08 Dec 2026 | **Reconciliation and tests** | Compare counts, amounts and IDs; test restart scenarios | `projects/01-python-postgres-etl/tests/` | ☐ |
+| 28 · 09 Dec 2026 | **Project 1 review** | Run end-to-end demo, record failures and improvements | `projects/01-python-postgres-etl/RESULTS.md` | ☐ |
+
+### WEEK 05 — Git, Docker and engineering hygiene
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 29 · 10 Dec 2026 | **Git fundamentals** | Practise branches, commits, diffs, merge and revert | `git/day-29-workflow.md` | ☐ |
+| 30 · 11 Dec 2026 | **Repository quality** | Add .gitignore, requirements and setup instructions | `projects/01-python-postgres-etl/README.md` | ☐ |
+| 31 · 12 Dec 2026 | **Docker fundamentals** | Build and run a Python ETL image | `docker/day-31/Dockerfile` | ☐ |
+| 32 · 13 Dec 2026 | **Docker networking** | Connect container to PostgreSQL service, not localhost | `docker/day-32/compose.yaml` | ☐ |
+| 33 · 14 Dec 2026 | **Environment and secrets** | Use environment variables and example config; exclude credentials | `docker/day-33/.env.example` | ☐ |
+| 34 · 15 Dec 2026 | **CI and code quality** | Add lint/test commands and a simple GitHub Actions workflow | `.github/workflows/tests.yml` | ☐ |
+| 35 · 16 Dec 2026 | **Weekly integration assessment** | Clone and run Project 1 from a clean environment | `assessments/week-05/README.md` | ☐ |
+
+### WEEK 06 — Spark core concepts
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 36 · 17 Dec 2026 | **Spark architecture** | Explain driver, executor, job, stage, task and partition | `spark/day-36-architecture.md` | ☐ |
+| 37 · 18 Dec 2026 | **DataFrames and schemas** | Read CSV/Parquet with explicit schemas | `spark/day-37-dataframes.py` | ☐ |
+| 38 · 19 Dec 2026 | **Transformations and actions** | Practise select, filter, withColumn, lazy evaluation | `spark/day-38-transformations.py` | ☐ |
+| 39 · 20 Dec 2026 | **Spark joins** | Implement joins and inspect physical plans | `spark/day-39-joins.py` | ☐ |
+| 40 · 21 Dec 2026 | **Shuffle and partitioning** | Explain groupBy shuffle; inspect partitions and exchange | `spark/day-40-shuffle.md` | ☐ |
+| 41 · 22 Dec 2026 | **Aggregations and windows** | Implement grouped metrics and latest-event logic | `spark/day-41-windows.py` | ☐ |
+| 42 · 23 Dec 2026 | **Weekly Spark assessment** | Build a small Spark batch transform without copying a solution | `assessments/week-06/README.md` | ☐ |
+
+### WEEK 07 — Project 2 — Spark performance
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 43 · 24 Dec 2026 | **Project 2 design** | Create skewed transaction dataset and define expected outputs | `projects/02-pyspark-processing/README.md` | ☐ |
+| 44 · 25 Dec 2026 | **Data skew diagnosis** | Measure hot keys and explain straggler tasks | `projects/02-pyspark-processing/skew_analysis.py` | ☐ |
+| 45 · 26 Dec 2026 | **Join strategies** | Compare broadcast join and sort-merge join plans | `projects/02-pyspark-processing/joins.py` | ☐ |
+| 46 · 27 Dec 2026 | **Partition tuning** | Experiment with repartition/coalesce and shuffle partitions | `projects/02-pyspark-processing/partitioning.py` | ☐ |
+| 47 · 28 Dec 2026 | **Skew mitigation** | Try salting or pre-aggregation; document trade-offs | `projects/02-pyspark-processing/skew_fix.py` | ☐ |
+| 48 · 29 Dec 2026 | **Spark UI evidence** | Capture plans and task metrics without fabricated speedups | `projects/02-pyspark-processing/PERFORMANCE.md` | ☐ |
+| 49 · 30 Dec 2026 | **Project 2 review** | Verify correctness before and after tuning | `projects/02-pyspark-processing/RESULTS.md` | ☐ |
+
+### WEEK 08 — Airflow orchestration
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 50 · 31 Dec 2026 | **Airflow architecture** | Explain scheduler, DAG, task instance and metadata DB | `airflow/day-50-architecture.md` | ☐ |
+| 51 · 01 Jan 2027 | **First DAG** | Create extract-transform-load DAG with dependencies | `airflow/day-51-etl_dag.py` | ☐ |
+| 52 · 02 Jan 2027 | **Scheduling and catchup** | Test logical dates, schedules, catchup and backfills | `airflow/day-52-scheduling.md` | ☐ |
+| 53 · 03 Jan 2027 | **Retries and idempotency** | Simulate task failure after load; prevent duplicates | `airflow/day-53-retries.py` | ☐ |
+| 54 · 04 Jan 2027 | **TaskFlow and XCom** | Pass small metadata; avoid passing datasets via XCom | `airflow/day-54-taskflow.py` | ☐ |
+| 55 · 05 Jan 2027 | **Monitoring and alerts** | Add failure callbacks, logs and runbook | `airflow/day-55-runbook.md` | ☐ |
+| 56 · 06 Jan 2027 | **Weekly Airflow assessment** | Debug a broken DAG and demonstrate safe rerun | `assessments/week-08/README.md` | ☐ |
+
+### WEEK 09 — GCP and BigQuery engineering
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 57 · 07 Jan 2027 | **GCP architecture** | Map IAM, GCS, BigQuery, KMS and service identities | `gcp/day-57-architecture.md` | ☐ |
+| 58 · 08 Jan 2027 | **GCS and Parquet** | Upload partitioned Parquet and validate objects | `gcp/day-58-gcs.md` | ☐ |
+| 59 · 09 Jan 2027 | **BigQuery SQL** | Practise partitioning, clustering and query cost inspection | `gcp/day-59-bigquery.sql` | ☐ |
+| 60 · 10 Jan 2027 | **Incremental pipelines** | Design watermarks, late arrivals and merge semantics | `gcp/day-60-incremental.sql` | ☐ |
+| 61 · 11 Jan 2027 | **CMEK and IAM** | Explain KMS key, service agent and access failures | `gcp/day-61-cmek.md` | ☐ |
+| 62 · 12 Jan 2027 | **Quality and observability** | Implement row-count, sum and missing-ID checks | `gcp/day-62-quality.sql` | ☐ |
+| 63 · 13 Jan 2027 | **Weekly GCP assessment** | Design and troubleshoot a PostgreSQL-to-BQ load | `assessments/week-09/README.md` | ☐ |
+
+### WEEK 10 — Architecture and AWS comparison
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 64 · 14 Jan 2027 | **Pipeline design** | Draw batch pipeline with failure and recovery paths | `architecture/day-64-batch.md` | ☐ |
+| 65 · 15 Jan 2027 | **Data modelling** | Design facts, dimensions, SCD choices and grain | `architecture/day-65-model.md` | ☐ |
+| 66 · 16 Jan 2027 | **Scalability** | Estimate data volume, throughput and bottlenecks | `architecture/day-66-capacity.md` | ☐ |
+| 67 · 17 Jan 2027 | **Reliability** | Define idempotency, SLAs, retries, DLQ concepts | `architecture/day-67-reliability.md` | ☐ |
+| 68 · 18 Jan 2027 | **GCP to AWS mapping** | Compare GCS/S3, BigQuery/Redshift, Dataproc/EMR | `aws/day-68-service-mapping.md` | ☐ |
+| 69 · 19 Jan 2027 | **Security and cost** | Threat model service identities, secrets and spend | `architecture/day-69-security-cost.md` | ☐ |
+| 70 · 20 Jan 2027 | **Weekly design assessment** | Present a 10-minute architecture review | `assessments/week-10/README.md` | ☐ |
+
+### WEEK 11 — Delta Lake and production reliability
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 71 · 21 Jan 2027 | **Lakehouse concepts** | Explain Parquet versus Delta transaction log | `delta/day-71-concepts.md` | ☐ |
+| 72 · 22 Jan 2027 | **Delta operations** | Practise MERGE, updates and deletes in a local example | `delta/day-72-merge.py` | ☐ |
+| 73 · 23 Jan 2027 | **Schema evolution** | Test compatible and breaking schema changes | `delta/day-73-schema.md` | ☐ |
+| 74 · 24 Jan 2027 | **Data quality** | Define freshness, completeness, uniqueness and validity | `delta/day-74-quality.py` | ☐ |
+| 75 · 25 Jan 2027 | **Observability** | Track run IDs, row counts, errors and duration | `delta/day-75-observability.md` | ☐ |
+| 76 · 26 Jan 2027 | **Incident response** | Write runbook for duplicate loads and missing data | `delta/day-76-incident-runbook.md` | ☐ |
+| 77 · 27 Jan 2027 | **Weekly reliability assessment** | Recover a deliberately broken incremental load | `assessments/week-11/README.md` | ☐ |
+
+### WEEK 12 — Project 3 — GCP end-to-end capstone
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 78 · 28 Jan 2027 | **Capstone design** | Define PostgreSQL→Python→GCS→BQ→Airflow architecture | `projects/03-gcp-end-to-end/README.md` | ☐ |
+| 79 · 29 Jan 2027 | **Source extraction** | Build configurable incremental PostgreSQL extractor | `projects/03-gcp-end-to-end/extract.py` | ☐ |
+| 80 · 30 Jan 2027 | **GCS landing** | Write validated Parquet with deterministic object names | `projects/03-gcp-end-to-end/landing.py` | ☐ |
+| 81 · 31 Jan 2027 | **BigQuery modelling** | Load staging and build curated target with MERGE | `projects/03-gcp-end-to-end/sql/` | ☐ |
+| 82 · 01 Feb 2027 | **Airflow integration** | Orchestrate and safely retry the full pipeline | `projects/03-gcp-end-to-end/dags/` | ☐ |
+| 83 · 02 Feb 2027 | **Reconciliation and tests** | Check source-target IDs, counts and sums; test failures | `projects/03-gcp-end-to-end/tests/` | ☐ |
+| 84 · 03 Feb 2027 | **Capstone demonstration** | Document setup, architecture, evidence and limitations | `projects/03-gcp-end-to-end/RESULTS.md` | ☐ |
+
+### DAYS 85–90 — Final portfolio and interview readiness
+
+| Day / Date | Focus | Independent implementation | Evidence / deliverable | Done |
+|---|---|---|---|:---:|
+| 85 · 04 Feb 2027 | **Portfolio cleanup** | Make all three project READMEs runnable and redact secrets | `progress/day-85-portfolio-review.md` | ☐ |
+| 86 · 05 Feb 2027 | **SQL and Python mock** | Solve unseen SQL and Python tasks under time limit | `interviews/day-86-sql-python.md` | ☐ |
+| 87 · 06 Feb 2027 | **Spark and Airflow mock** | Explain shuffle/skew, DAG retries and debugging | `interviews/day-87-spark-airflow.md` | ☐ |
+| 88 · 07 Feb 2027 | **Cloud and system design mock** | Design reliable payment pipeline and defend choices | `interviews/day-88-system-design.md` | ☐ |
+| 89 · 08 Feb 2027 | **End-to-end practical exam** | Fix injected pipeline failure; prove no data loss | `assessments/final-practical/README.md` | ☐ |
+| 90 · 09 Feb 2027 | **Final review and next steps** | Score evidence, identify remaining gaps and plan applications | `progress/day-90-final-review.md` | ☐ |
+
+---
+
+## SECTION 3 — Technology Depth Matrix & Stopping Rules
+
+| Technology | Required depth | Stop when you can… | Defer for now |
+|---|---|---|---|
+| Linux | Paths, permissions, shell, `df`/`du`, `top`, cron, logs, SSH concepts | Diagnose a failed scheduled ETL from terminal evidence | Kernel internals, advanced networking |
+| SQL/PostgreSQL | Joins, windows, CTEs, indexes, `EXPLAIN ANALYZE`, transactions, reconciliation | Write latest-per-lead query and prove no payments lost | Exotic database internals |
+| Python | Lists/dicts/sets/generators, modules, exceptions, typing, logging, `pytest`, cursors | Build ETL without pandas and then a tested DB extractor | Metaclasses, advanced async |
+| Git/Docker | Branching, commits, Dockerfile, Compose, service DNS, env files | Run Postgres + ETL locally from README | Kubernetes administration |
+| PySpark | DataFrames, schemas, joins, windows, shuffle, skew, AQE, Spark UI | Explain and measure a slow join and apply an appropriate fix | Catalyst source code, Scala internals |
+| Airflow | DAGs, scheduling, TaskFlow, retries, backfills, XCom metadata | Retry a failed DAG without duplicate payments | Custom executors |
+| GCP/BigQuery | IAM/CMEK, GCS, partitioning, clustering, MERGE, INFORMATION_SCHEMA, costs | Load and reconcile synthetic payments; explain permissions | Deep GKE/VPC administration |
+| Architecture | Batch design, data contracts, failure recovery, trade-offs | Defend an end-to-end payment pipeline design | Huge-scale hypothetical systems without assumptions |
+| AWS | S3/Glue/EMR/Redshift/Step Functions mappings | Compare trade-offs against GCP choices | Production AWS build unless time permits |
+| Delta Lake | ACID, transaction log, MERGE, SCD2, compaction | Demonstrate safe upsert and replay | Advanced proprietary optimizations |
+| Kafka/dbt | Conceptual awareness; optional hands-on | Explain use cases and trade-offs | Full streaming project before core projects pass |
+
+---
+
+## SECTION 4 — High-ROI Resources and Study Method
+
+### 4.1 Official documentation (primary)
+
+- [Python Tutorial](https://docs.python.org/3/tutorial/) · [pytest](https://docs.pytest.org/) · [PostgreSQL](https://www.postgresql.org/docs/)
+- [GNU Coreutils](https://www.gnu.org/software/coreutils/manual/) · [Bash](https://www.gnu.org/software/bash/manual/) · [Docker](https://docs.docker.com/)
+- [Apache Spark / PySpark](https://spark.apache.org/docs/latest/api/python/) · [Spark SQL performance tuning](https://spark.apache.org/docs/latest/sql-performance-tuning.html)
+- [Apache Airflow](https://airflow.apache.org/docs/) · [Astronomer Learn](https://www.astronomer.io/docs/learn/)
+- [BigQuery documentation](https://cloud.google.com/bigquery/docs) · [Cloud KMS](https://cloud.google.com/kms/docs) · [Cloud Storage](https://cloud.google.com/storage/docs)
+- [Delta Lake](https://docs.delta.io/) · [AWS architecture](https://docs.aws.amazon.com/)
+
+### 4.2 Supplementary practice
+
+- [DataLemur](https://datalemur.com/) and [StrataScratch](https://www.stratascratch.com/) for SQL.
+- [DataTalksClub Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) for selected labs, **not** as an extra full course.
+- TrendyTech / Sumit Mittal for Spark explanations; Marc Lamberti for Airflow explanations.
+- *Designing Data-Intensive Applications* for system-design intuition (selected chapters only).
+
+### 4.3 Learning protocol
+
+**Understand → Predict → Implement → Break → Debug → Test → Explain → Commit.** Try for 20 minutes before asking for a hint. Record the actual error, your hypothesis and the eventual root cause. Never upload employer data, credentials, internal code or sensitive architecture; use synthetic data.
+
+---
+
+## SECTION 5 — Enterprise-Style Portfolio Projects
+
+### 5.1 Project 1 — Reliable PostgreSQL → Python ETL → Parquet
+
+**Business problem:** Ingest a synthetic payments table reliably without losing or duplicating payment IDs, including restarts and late arrivals.
 
 ```mermaid
-graph TD
-    A[Current Profile: SQL + Basic Python] -->|Gap: Distributed Scaling| B(PySpark & Spark Internals)
-    A -->|Gap: System Monitoring| C(Apache Airflow Orchestration)
-    A -->|Gap: Infrastructure & Warehouse| D(GCP + BigQuery + dbt)
-    A -->|Gap: Near Real-Time Ingest| E(Kafka + Spark Streaming)
-    B & C & D & E --> F[Target: Mid-Level Cloud + Big Data Engineer]
+flowchart LR
+    A[Local PostgreSQL] --> B[Python batched extractor]
+    B --> C[Validation and deduplication]
+    C --> D[Parquet output]
+    C --> E[Audit and reconciliation log]
 ```
 
-#### The Gap Matrix:
-1. **PySpark & Spark Internals (1/5 → 4.5/5)**: Ratan has minimal Spark experience. Mid-level JDs at Tiger/Tredence assume deep familiarity with Spark's execution engine, query optimizations (broadcast joins, caching, AQE), and partition tuning.
-2. **Orchestration with Airflow (0/5 → 4/5)**: Re-running scripts manually or via local crontabs does not scale. Ratan needs to speak managed orchestration (Cloud Composer/Airflow DAGs, TaskFlow API, sensors, and alerting).
-3. **Python OOP & Production Practices (2/5 → 4/5)**: Scripting in Python is easy; writing modular, class-based, testable (`pytest`) ETL code with configuration management (YAML/dotenv) is what FAANG and product engineering teams look for.
-4. **Cloud Infrastructure (GCP & BigQuery, 2.5/5 → 4.5/5)**: Ratan knows BigQuery basics but needs to master advanced BigQuery storage optimization (partitioning, clustering, slot budget, cost control).
-5. **Data System Design (1/5 → 4/5)**: Ratan has built pipelines but cannot yet drive a 45-minute architectural interview discussing distributed state, storage-compute separation, and micro-batching.
+**Build in days 22–28; harden in days 29–35.** Use batched cursor reads, config, structured logs, exception handling, idempotent output, tests, counts and amount reconciliation. Include a deliberate failure after partial progress and prove safe rerun.
 
-### 1.3 Hidden Risks
-* **The DSA Rabbit Hole**: Ratan's DSA is 1/5. He might feel tempted to spend 2 hours a day on LeetCode Medium/Hard. **This is a low-ROI trap.** Data engineering roles at Tiger Analytics, Fractal, and Tredence do not test heavy graph algorithms or dynamic programming. They test advanced SQL, Spark DataFrame API, and Python data structure manipulations. Keep DSA limited to simple array, string, and hashing operations (LeetCode Easy).
-* **Tutorial Hell**: Watching tutorials without building leads to failure in live coding rounds. The roadmap must enforce a "Build-First" approach.
-* **Negotiation Anchor Trap**: Recruiters will try to anchor Ratan's new offer to his current 6.2 LPA salary. Ratan must anchor on his scale metrics (154GB migration, 1Cr+ activities) and the market rate for the role.
+**Required evidence:** `README.md`, executable source, `requirements.txt`, sample synthetic input/schema, tests, run instructions, one failure/recovery transcript, reconciliation results. Do **not** claim exactly-once delivery merely because you used UPSERT.
 
-### 1.4 Market Valuation (India, 2026)
-* **Market Readiness Score (Current)**: **3.5/10** (Will pass SQL, but fail Spark/Airflow/System Design coding rounds).
-* **Market Readiness Score (Post-Roadmap)**: **9.0/10** (Strong portfolio, ready for PySpark coding, Airflow orchestration, and BQ cost-control discussions).
-* **Salary Potential**:
-  * **Service Firms (Accenture, Capgemini, LTIMindtree)**: 10–12 LPA.
-  * **Analytics Specialists (Tiger Analytics, Tredence, Fractal)**: 12–15 LPA (High-value targets).
-  * **Product / Finance Teams (JPMC, Amex)**: 14–18 LPA.
+**Interview prompts:** What if the process crashes after writing but before checkpointing? What is the difference between at-least-once processing and idempotent writes? How do you prove no payment IDs are missing?
 
----
+### 5.2 Project 2 — PySpark Batch Processing and Performance Investigation
 
-## SECTION 2 — Calendar-Based 12-Week Roadmap (20-Hour Weekly Budget)
+**Business problem:** Process synthetic transaction/activity logs and detect expensive joins, skewed keys and unnecessary shuffles.
 
-To fit Ratan's **20 hours/week** budget while respecting his weekday and weekend limits, the daily study cadence is structured as follows:
-* **Tuesday**: 3 hours (New concept learning & videos)
-* **Wednesday**: 3 hours (Hands-on CLI/notebook coding)
-* **Thursday**: 1 hour (Weekly revision, tracker update, and speaking practice)
-* **Friday**: 0 hours (Rest / Buffer / Catch-up)
-* **Saturday**: 5 hours (Hard core project building & coding)
-* **Sunday**: 5 hours (Integration, debugging, and testing)
-* **Monday**: 3 hours (Practical exercises / light revision)
-
-```
-Study Schedule Cycle:
-Tue (3h) ──> Wed (3h) ──> Thu (1h) ──> Fri (Rest) ──> Sat (5h) ──> Sun (5h) ──> Mon (3h)
+```mermaid
+flowchart LR
+    A[Parquet transaction files] --> C[PySpark transformations]
+    B[Customer dimension] --> C
+    C --> D[Partitioned output]
+    C --> E[Spark explain plans and UI evidence]
 ```
 
----
+**Build in days 43–49.** Demonstrate schemas, filters, joins, windows, aggregation, repartitioning and skew. Capture explain plans and measured timings for baseline versus changed approach; document dataset size and hardware. Avoid claiming a speedup if measurements are inconclusive.
 
-### WEEK 1: Advanced Python for DE (OOP & Clean Code) + Linux CLI
-* **Dates**: June 30, 2026 – July 06, 2026
-* **Weekly Goal**: Transition from writing loose python scripts to class-based modular ETL codes; master Linux navigation.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Jun 30 (3h)**: Python data structures deep dive. Lists, dicts, tuples, sets, f-strings, list comprehensions. Re-write SQL reporting functions in pure Python.
-  * **Wed, Jul 01 (3h)**: Functions and modules. Logging module, custom logging helpers, try-except-finally blocks, parameters configuration.
-  * **Thu, Jul 02 (1h)**: Run weekly revision, update progress tracker, and record a 2-min spoken summary explaining OOP in ETL pipelines.
-  * **Fri, Jul 03 (0h)**: Buffer/Rest Day.
-  * **Sat, Jul 04 (5h)**: OOP for Data Engineers. Classes, `__init__`, self, instance variables, methods, simple inheritance. Build a base `Extractor`, `Transformer`, and `Loader` class framework.
-  * **Sun, Jul 05 (5h)**: Linux CLI. Setting up WSL2 or GCP VM. Practice navigation: `cd`, `ls`, `cat`, `less`, `grep`, pipes (`|`), redirects (`>`), `chmod`, `chown`.
-  * **Mon, Jul 06 (3h)**: CLI scripts packaging. Build a command-line Python ETL using `argparse` that reads a local file, cleans it using OOP, and writes it back, executed from shell.
-* **Resources**: Real Python (OOP Tutorials), Linux Journey (Command Line).
-* **Practice Tasks**: Build a class-based CSV parser that dynamically handles null column overrides based on a YAML config.
-* **Deliverable**: A packaged Git repository `python-de-foundations` with class-based code, config files, and run commands.
-* **Revision**: Redo the YAML config parsing task from memory.
+**Required evidence:** runnable Spark script, data generator, plan screenshots/text, measurement table, correctness checks, explanation of shuffle and skew.
 
----
+**Interview prompts:** Why does a `groupBy` shuffle? When is broadcast appropriate? Why can a single customer with 70% of transactions cause a straggler task?
 
-### WEEK 2: Storage Formats (Avro, Parquet, Delta) + Postgres to GCP Lake Landing
-* **Dates**: July 07, 2026 – July 13, 2026
-* **Weekly Goal**: Master columnar storage internals and build an idempotent API/Database ingestion script landing to Cloud Storage.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Jul 07 (3h)**: File format deep dive. CSV vs Parquet vs Avro vs JSON. Study partition pruning, columnar compression (Snappy), and schema evolution.
-  * **Wed, Jul 08 (3h)**: APIs and pagination. Python `requests` library, handling OAuth token expiration, retry mechanisms (using the `tenacity` library), rate limiting.
-  * **Thu, Jul 09 (1h)**: Update progress tracker. Record a 2-minute pitch explaining why Parquet is preferred over CSV for data warehouses.
-  * **Fri, Jul 10 (0h)**: Buffer/Rest Day.
-  * **Sat, Jul 11 (5h)**: Database ingestion. Connecting to PostgreSQL using Python (`psycopg2` or `SQLAlchemy`), executing batched cursor reads, converting result sets to Parquet.
-  * **Sun, Jul 12 (5h)**: Google Cloud Storage landing. Setup free GCP tier, write python script using `google-cloud-storage` SDK to upload local Parquet files to a date-partitioned GCS bucket.
-  * **Mon, Jul 13 (3h)**: Idempotency check. Modify the script to check if the destination file exists for a run date, overwrite it safely, and log execution details.
-* **Resources**: PyArrow documentation, GCP Cloud Storage documentation.
-* **Practice Tasks**: Ingest a dataset from a public API, convert it to partitioned Parquet, and upload to GCS.
-* **Deliverable**: GitHub repository with containerized DB-to-GCS batch extraction script.
-* **Revision**: Re-explain Spark/BigQuery storage-compute separation out loud.
+### 5.3 Project 3 — GCP End-to-End Batch Warehouse Capstone
 
----
+**Business problem:** Land synthetic payment events, transform and load them into an auditable BigQuery warehouse with safe reruns.
 
-### WEEK 3: PySpark Core I: Architecture & DataFrames
-* **Dates**: July 14, 2026 – July 20, 2026
-* **Weekly Goal**: Understand Spark cluster internals and execute standard DataFrame APIs without errors.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Jul 14 (3h)**: Spark cluster architecture. Driver, Executors, Cluster Manager, Jobs, Stages, Tasks. Narrow vs Wide transformations.
-  * **Wed, Jul 15 (3h)**: SparkSession initialization. Setting up local PySpark or Databricks Community cluster. Read CSV, JSON, and Parquet with explicit schemas.
-  * **Thu, Jul 16 (1h)**: Update tracker. Practice spoken explanation of: "What happens when I run `.count()` in Spark?"
-  * **Fri, Jul 17 (0h)**: Buffer/Rest Day.
-  * **Sat, Jul 18 (5h)**: DataFrame operations. `select`, `filter`, `withColumn`, `drop`, `orderBy`, `groupBy`. Compare Spark execution plans (`.explain()`) for actions vs transformations.
-  * **Sun, Jul 19 (5h)**: Translating SQL. Take 10 complex SQL queries (Window functions, group-by, join) and rewrite them using PySpark DataFrame API.
-  * **Mon, Jul 20 (3h)**: Partitioning on write. Save DataFrames back to disk partitioned by date/category. Analyze folder output structure.
-* **Resources**: Sumit Mittal (TrendyTech Spark Architecture playlist), PySpark API docs.
-* **Practice Tasks**: Load 1 million rows of mock data, partition by state/year, and inspect execution DAG.
-* **Deliverable**: Jupyter notebook containing 10 SQL-to-PySpark translations with performance commentary.
-* **Revision**: Re-draw Spark execution flow (Driver to Executor) on a whiteboard.
-
----
-
-### WEEK 4: PySpark Core II: Advanced Joins, Nested Data, & JDBC
-* **Dates**: July 21, 2026 – July 27, 2026
-* **Weekly Goal**: Execute nested JSON processing and configure high-performance database reads via JDBC.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Jul 21 (3h)**: Processing nested JSON. `explode`, `struct`, `array`, `from_json`, schema mapping for semi-structured payloads.
-  * **Wed, Jul 22 (3h)**: Spark Joins. Inner, left, right, outer, semi, and anti joins. Study Shuffle hash joins vs Broadcast hash joins.
-  * **Thu, Jul 23 (1h)**: Tracker logging. Spoken rep: "Why are custom UDFs in PySpark considered a performance anti-pattern?"
-  * **Fri, Jul 24 (0h)**: Buffer/Rest Day.
-  * **Sat, Jul 25 (5h)**: Spark JDBC setup. Read from local PostgreSQL. Configure partition reads (`partitionColumn`, `lowerBound`, `upperBound`, `numPartitions`) to avoid single-thread bottlenecks.
-  * **Sun, Jul 26 (5h)**: Custom Transformations & UDFs. Learn when to use built-in functions vs PySpark UDFs (and why PySpark UDFs hurt performance due to JVM serialization overhead).
-  * **Mon, Jul 27 (3h)**: Schema validation. Write a helper module in PySpark to validate schema patterns of incoming files against expected schemas.
-* **Resources**: Databricks documentation on JDBC reads, PySpark built-in functions list.
-* **Practice Tasks**: Read a 10GB PostgreSQL database table in parallel using 4 partitions based on an integer ID column.
-* **Deliverable**: Spark pipeline script performing a partitioned JDBC read, joining with a GCS dimension table, and outputting to Parquet.
-* **Revision**: Re-derive partition read logic (bounds calculation).
-
----
-
-### WEEK 5: Spark Optimization, Spark UI, & Delta Lake
-* **Dates**: July 28, 2026 – August 03, 2026
-* **Weekly Goal**: Profile Spark jobs using the Spark UI, resolve data skew, and build a Delta Lake ACID model.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Jul 28 (3h)**: Spark UI deep dive. Accessing Spark UI, analyzing DAGs, finding bottlenecks, identifying Spill (Memory/Disk), and monitoring task execution times.
-  * **Wed, Jul 29 (3h)**: Data Skew. What causes data skew? Mitigating skew using Salting techniques and broadcast hints. Repartition vs Coalesce.
-  * **Thu, Jul 30 (1h)**: Update tracker. Spoken rep: "How would you handle a data skew issue on a skewed join key?"
-  * **Fri, Jul 31 (0h)**: Buffer/Rest Day.
-  * **Sat, Aug 01 (5h)**: Delta Lake Core. ACID transactions, metadata log, time-travel, compaction (`OPTIMIZE`), and file skipping (`Z-ORDER`).
-  * **Sun, Aug 02 (5h)**: Databricks notebook environment. Setting up compute, working with DBFS, performing Delta operations (INSERT, UPDATE, DELETE, MERGE).
-  * **Mon, Aug 03 (3h)**: Performance profiling task. Take a slow PySpark job, identify skew, apply salting, convert to Delta format, run optimization, and record runtime metrics.
-* **Resources**: Databricks Delta Lake Guide, Spark Performance tuning documentation.
-* **Practice Tasks**: Implement a salted join key in PySpark to join a highly skewed customer transactional dataset with a customer metadata dataset.
-* **Deliverable**: Databricks notebook demonstrating before-and-after join optimizations with timing logs.
-* **Revision**: Re-explain the difference between Coalesce and Repartition.
-
----
-
-### WEEK 6: GCP Core, IAM, BigQuery Optimization & Project 1 Ingestion
-* **Dates**: August 04, 2026 – August 10, 2026
-* **Weekly Goal**: Configure GCP security permissions, design BigQuery partitioning/clustering, and initialize Project 1 repository.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Aug 04 (3h)**: GCP identity and Access Management (IAM). Roles, Service Accounts, least privilege principle. Create service accounts for pipelines.
-  * **Wed, Aug 05 (3h)**: BigQuery Architecture. Compute-storage split (Dremel + Colossus), slots allocation. Load formats (Parquet vs CSV).
-  * **Thu, Aug 06 (1h)**: Update tracker. Spoken rep: "When would you partition a BigQuery table vs cluster it?"
-  * **Fri, Aug 07 (0h)**: Buffer/Rest Day.
-  * **Sat, Aug 08 (5h)**: BigQuery optimization. Partitioning vs Clustering. Implement MERGE statements for upsert operations. External vs Native tables.
-  * **Sun, Aug 09 (5h)**: Dataproc serverless. Running a PySpark job on managed Dataproc. Configure compute size, service accounts, and logging.
-  * **Mon, Aug 10 (3h)**: **Project 1 Ingestion**: Scripting batch ingestion from PostgreSQL/API to GCS bucket using Python with logging and credential configurations.
-* **Resources**: Google Cloud IAM best practices, BigQuery cost optimization guides.
-* **Practice Tasks**: Create a BigQuery table partitioned by date and clustered by customer ID, load Parquet data, and verify bytes scanned in query plan.
-* **Deliverable**: Terraform or Python scripts provisioning GCP resources and the initial ingestion layer of Project 1.
-* **Revision**: Recite the BigQuery query cost estimation process.
-
----
-
-### WEEK 7: Apache Airflow (Cloud Composer) Orchestration
-* **Dates**: August 11, 2026 – August 17, 2026
-* **Weekly Goal**: Build complex DAGs using TaskFlow API, setup sensors, connections, variables, and failure alerts.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Aug 11 (3h)**: Airflow Architecture. Scheduler, Webserver, Worker, Metadata Database. Setup Astro CLI for local development.
-  * **Wed, Aug 12 (3h)**: Writing DAGs. Task dependencies (`>>`, `<<`), execution loops, scheduler intervals, start date, catchup, and backfills.
-  * **Thu, Aug 13 (1h)**: Update tracker. Spoken rep: "How does Airflow pass data between tasks, and what are the limitations of XComs?"
-  * **Fri, Aug 14 (0h)**: Buffer/Rest Day.
-  * **Sat, Aug 15 (5h)**: Advanced Airflow. TaskFlow API (`@task` decorator), XComs for passing metadata, Airflow Variables, and Connections.
-  * **Sun, Aug 16 (5h)**: Error Handling & Sensors. Retries, retry delay, email/slack alerts on task failure. Python operators, GCP Operators (`GCSToBigQueryOperator`, `DataprocSubmitJobOperator`).
-  * **Mon, Aug 17 (3h)**: **Project 1 Orchestration**: Construct Airflow DAG to sequence Project 1 ingestion script and GCS landing triggers.
-* **Resources**: Marc Lamberti (Airflow tutorials), Astronomer.io learn guides.
-* **Practice Tasks**: Build an Airflow DAG with 5 tasks that executes in a loop, passes parameters via XComs, and fires a mock alert task on failure.
-* **Deliverable**: Local Airflow DAG codebase with connections and execution profiles configured.
-* **Revision**: Re-write standard PythonOperator structure from memory.
-
----
-
-### WEEK 8: dbt (Data Build Tool) + CI/CD with GitHub Actions + Project 1 Finalization
-* **Dates**: August 18, 2026 – August 24, 2026
-* **Weekly Goal**: Implement analytics engineering on BigQuery using dbt Core and automate test runs via GitHub Actions.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Aug 18 (3h)**: dbt core concepts. Models, sources, references, materializations (tables, views, incremental). Connecting dbt to BigQuery.
-  * **Wed, Aug 19 (3h)**: Data quality testing. Schema tests, unique, not_null, relationship checks, singular tests. Auto-generating documentation.
-  * **Thu, Aug 20 (1h)**: Update tracker. Spoken rep: "What is the benefit of using dbt over writing custom SQL scripts inside Airflow tasks?"
-  * **Fri, Aug 21 (0h)**: Buffer/Rest Day.
-  * **Sat, Aug 22 (5h)**: CI/CD with GitHub Actions. Writing a workflow file (`.github/workflows/ci.yml`) to run pytest, python linter, and dbt compile on PR.
-  * **Sun, Aug 23 (5h)**: **Project 1 completion**: Build serving tables in BigQuery using dbt, create dashboard in Looker Studio/Tableau.
-  * **Mon, Aug 24 (3h)**: Project 1 final run: End-to-end dry run, document architecture diagrams, write README, prepare resume bullet points.
-* **Resources**: dbt Learn fundamentals (Free Course), GitHub Actions Documentation.
-* **Practice Tasks**: Implement an incremental model in dbt on a BigQuery dataset based on a timestamp column.
-* **Deliverable**: Complete Project 1 codebase published to GitHub with documentation, tests, and CI/CD status badge.
-* **Revision**: Re-explain the difference between `dbt run` and `dbt test`.
-
----
-
-### WEEK 9: Streaming Architecture: Apache Kafka + Pub/Sub + Spark Streaming
-* **Dates**: August 25, 2026 – August 31, 2026
-* **Weekly Goal**: Configure local Kafka cluster in Docker, build Python producers, and ingest events in PySpark Structured Streaming.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Aug 25 (3h)**: Streaming concepts. Batch vs Stream. Event time vs Processing time. Kafka architecture (brokers, topics, partitions, consumer groups, offsets).
-  * **Wed, Aug 26 (3h)**: Kafka hands-on. Spin up Kafka using Docker compose. Write python script producing sample events to a Kafka topic.
-  * **Thu, Aug 27 (1h)**: Update tracker. Spoken rep: "How does Spark Structured Streaming use watermarks to handle late-arriving data?"
-  * **Fri, Aug 28 (0h)**: Buffer/Rest Day.
-  * **Sat, Aug 29 (5h)**: Spark Structured Streaming. Initialization (`readStream`), schema inference, micro-batches, checkpointing, and output sinks (Console, Parquet).
-  * **Sun, Aug 30 (5h)**: Advanced Streaming. Event time windows, watermarking to drop late-arriving events, deduplication, and GCP Pub/Sub equivalent patterns.
-  * **Mon, Aug 31 (3h)**: Python stream listener. Write a PySpark job that reads from Kafka, flattens a nested JSON string payload, and writes to a parquet sink directory.
-* **Resources**: Confluent Developer (Kafka 101), Spark Structured Streaming Programming Guide.
-* **Practice Tasks**: Run a stream pipeline locally that ingests continuous log lines from a Python script, extracts errors, and counts them.
-* **Deliverable**: Kafka-Spark streaming script reading continuous messages and persisting them locally.
-* **Revision**: Recite the exact fields of a Kafka message header and body.
-
----
-
-### WEEK 10: Delta Lake Lakehouse + Databricks Streaming + Project 2 Finalization
-* **Dates**: September 01, 2026 – September 07, 2026
-* **Weekly Goal**: Build a near real-time ingestion pipeline on Databricks landing into optimized Delta Lake tables.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Sep 01 (3h)**: Delta Lake optimization deep dive. File compaction (bin-packing), layout optimization (`Z-Order`), vacuuming deleted logs.
-  * **Wed, Sep 02 (3h)**: Slowly Changing Dimensions (SCD) Type 2 logic. Implementing SCD2 updates in Delta Lake using PySpark `MERGE`.
-  * **Thu, Sep 03 (1h)**: Update tracker. Spoken rep: "How does Delta Lake guarantee ACID transactions, and how is Z-Ordering different from Partitioning?"
-  * **Fri, Sep 04 (0h)**: Buffer/Rest Day.
-  * **Sat, Sep 05 (5h)**: **Project 2 Ingestion**: Streaming simulated transactions to Kafka, running Spark streaming job on Databricks to write stream directly to Bronze Delta Table.
-  * **Sun, Sep 06 (5h)**: **Project 2 Transformation**: Batch/Stream join on Databricks. Join streaming transaction logs with customer profile details from GCS, update Silver Delta Table.
-  * **Mon, Sep 07 (3h)**: **Project 2 finalization**: Add dbt test validations, build Tableau/Looker dashboard, write readme, finalize architecture.
-* **Resources**: Databricks Lakehouse guide, Delta Lake Quickstart.
-* **Practice Tasks**: Write a PySpark MERGE query to update a customer dimensions table with new records, tracking history.
-* **Deliverable**: Complete Project 2 Lakehouse codebase on GitHub with architectural logs and dashboard metrics.
-* **Revision**: Re-write SCD Type 2 merge pattern logic on paper.
-
----
-
-### WEEK 11: Scalable Data System Design & Coding Drilling
-* **Dates**: September 08, 2026 – September 14, 2026
-* **Weekly Goal**: Master the data system design framework and drill live coding challenges.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Sep 08 (3h)**: System Design Framework. Clarify requirements → Estimate scale → Ingestion layer → Storage & formats → Compute & tools → Serving → Quality & monitoring → Failure modes.
-  * **Wed, Sep 09 (3h)**: Design prompts. Clickstream tracking, logs analytics platform, fintech billing pipeline. Study trade-offs: cost, speed, consistency.
-  * **Thu, Sep 10 (1h)**: Review mock recording, catalog weaknesses, update progress tracker.
-  * **Fri, Sep 11 (0h)**: Buffer/Rest Day.
-  * **Sat, Sep 12 (5h)**: Coding drill: PySpark DataFrame API under pressure. Live coding exercises covering joins, window aggregations, explode schemas.
-  * **Sun, Sep 13 (5h)**: Coding drill: Advanced SQL. Dedup, running totals, sessionization, gaps-and-islands. Solve 10 hard problems on DataLemur/StrataScratch.
-  * **Mon, Sep 14 (3h)**: **Mock Interview #1**: 60-minute technical session covering Spark, SQL, and GCP pipelines. Record audio.
-* **Resources**: Alex Xu (System Design Interview), DataLemur.
-* **Practice Tasks**: Whiteboard a complete end-to-end near real-time payment tracking system (50,000 transactions/sec).
-* **Deliverable**: System design diagrams and code repo containing 15 optimized SQL/PySpark practice scripts.
-* **Revision**: Practice thinking-out-loud strategy during SQL coding.
-
----
-
-### WEEK 12: Behavioral Strategy (STAR) + Resume/LinkedIn Polish + Active Job Search Start
-* **Dates**: September 15, 2026 – September 21, 2026
-* **Weekly Goal**: Polish application assets, document STAR stories, and launch job application cycles.
-* **Total Hours**: 20 hours
-* **Daily Schedule**:
-  * **Tue, Sep 15 (3h)**: STAR Method. Prepare 6 stories: greatest achievement (154GB migration), handling scale (API extractor), a critical production bug, conflict resolution, technical disagreement, and a personal mistake.
-  * **Wed, Sep 16 (3h)**: Resume rewrite. Focus on metrics: "Reduced runtime by X%", "Ingested X million records daily", "Optimized queries resulting in X% cost savings". Highlight Python OOP, PySpark, Airflow, GCP, and Databricks.
-  * **Thu, Sep 17 (1h)**: Update application tracking spreadsheet, log feedback, run weekly revision.
-  * **Fri, Sep 18 (0h)**: Buffer/Rest Day.
-  * **Sat, Sep 19 (5h)**: LinkedIn & GitHub Profile optimization. Clean up project READMEs, pin the 2 portfolio projects, update LinkedIn headline to "Cloud Data Engineer | PySpark | Airflow | GCP | Databricks".
-  * **Sun, Sep 20 (5h)**: **Mock Interview #2**: Live full-scale mock with peer or mentor. Practice negotiation scripts (anchoring to value, not current CTC).
-  * **Mon, Sep 21 (3h)**: Application Launch. Send applications to target companies, reach out to recruiters, ask for referrals.
-* **Resources**: The STAR Method Guide, Levels.fyi.
-* **Practice Tasks**: Draft a cold outreach LinkedIn message targeting recruiters at Tiger Analytics and Tredence.
-* **Deliverable**: Metric-driven resume, optimized LinkedIn profile, and live applications tracker.
-* **Revision**: Rehearse the 6 STAR stories out loud in front of a mirror.
-
----
-
-### DAYS 85–90: Active Recruitment, Interviewing & Negotiation Sprint
-* **Dates**: September 17, 2026 – September 22, 2026
-* **Daily Schedule**:
-  * **Thu, Sep 17 (3h)**: Apply to target organizations (Fractal, JPMorgan, Amex). Connect with 10 engineering leaders.
-  * **Fri, Sep 18 (3h)**: Core theory drills: Spark UI, BigQuery partitioning, Airflow retries.
-  * **Sat, Sep 19 (6h)**: SQL/PySpark live coding drills, mock system design prompt solutions.
-  * **Sun, Sep 20 (5h)**: STAR stories review + negotiation roleplay.
-  * **Mon, Sep 21 (3h)**: Active interviews scheduling, candidate reviews, cold outreach follow-ups.
-  * **Tue, Sep 22 (1h)**: Update application progress tracker, run final roadmap check.
-
----
-
-## SECTION 3 — Technology Depth Matrix & Depth Control
-
-To avoid the common trap of over-studying, follow these exact boundaries:
-
-| Technology | What to Learn (Interview Depth: High/Med) | What to Ignore (Skip for now) | Stopping Point |
-| :--- | :--- | :--- | :--- |
-| **Python** | OOP, decorators (`@task`), list comprehensions, config parsing, `pytest`, structured logging, `requests` + retries. | Metaclasses, descriptors, deep async/await internals, memory management (GIL internals). | Can write a class-based, testable, CLI-driven ETL script. |
-| **PySpark** | Driver/Executor configs, Wide/Narrow transformations, shuffling internals, Broadcast joins, Salting, AQE, Spark UI analysis. | Writing RDDs in Scala, Catalyst optimizer source code, JVM GC tuning parameters. | Can identify a join bottleneck on the Spark UI and apply salt. |
-| **GCP & BigQuery** | IAM Service Accounts, Cloud Storage permissions, BQ Partitioning, Clustering, MERGE queries, Dataproc Serverless runs. | Kubernetes Engine (GKE), VPC Service Controls, Cloud Composer cluster networking. | Can partition/cluster a BQ table and run Dataproc without console UI. |
-| **Airflow** | TaskFlow API, XCom limits, Airflow Variables, GCSToBigQuery, sensors, retries, Task failure handlers. | Writing custom executors, cluster orchestration (K8s executor configuration). | Can write a 5-task DAG with retries, passing metadata. |
-| **dbt** | Materializations, `ref` function, singular/generic tests, docs generation, dbt compile/run. | Advanced custom macros, packages integration, dbt Cloud administrator settings. | Can build a tested incremental model linked to BQ. |
-| **Docker** | Writing a Dockerfile, building images, exposing ports, running multi-container scripts via Docker Compose. | Production Kubernetes clustering, Docker Swarm configurations. | Can run Airflow and a Postgres sandbox locally via Compose. |
-| **Kafka** | Consumer groups, topics, partition key routing, producer retry logs, spark structured streaming integrations. | Zookeeper to KRaft migration steps, JVM broker heap configuration. | Can spin up a topic, push JSONs, and consume in Spark. |
-| **Databricks & Delta** | Delta ACID log, time travel, MERGE (SCD2), Z-Ordering, compaction (`OPTIMIZE`). | Unity Catalog workspace administration, Workspace SSO integrations. | Can build a Delta table, run time-travel, and run Z-Order optimization. |
-| **DSA** | Hashing/Dicts, Arrays, String manipulations, Two-pointer techniques, Big-O analysis. | Dynamic programming, graph traversals (DFS/BFS), red-black trees. | Can solve LeetCode Easy/Medium array and string manipulation questions. |
-
----
-
-## SECTION 4 — High-ROI Resource Mapping
-
-* **Official Docs**:
-  * [Apache Spark documentation](https://spark.apache.org/docs/latest/api/python/index.html) (Core DataFrame functions)
-  * [Astronomer Airflow Guide](https://www.astronomer.io/docs/learn/) (Best Airflow explanations)
-  * [Delta Lake Tutorial](https://docs.delta.io/latest/index.html) (ACID log and MERGE operations)
-* **YouTube Playlists**:
-  * **Sumit Mittal (TrendyTech)**: [Spark Architecture & Tuning](https://www.youtube.com/@sumitmittal) (Critical for technical rounds)
-  * **Marc Lamberti**: [Apache Airflow tutorials](https://www.youtube.com/@MarcLamberti) (DAG building fundamentals)
-  * **DataTalksClub**: [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) (GCP, Terraform, dbt, Spark)
-* **Books**:
-  * *Designing Data-Intensive Applications* by Martin Kleppmann (Read Chapter 3: Storage and Retrieval, Chapter 5: Replication, and Chapter 6: Partitioning).
-* **Blogs**:
-  * [Databricks Engineering Blog](https://www.databricks.com/blog) (Performance optimizations & Delta Lake releases)
-  * [Astronomer Blog](https://www.astronomer.io/blog/) (Airflow production patterns)
-* **Practice Websites**:
-  * [DataLemur](https://datalemur.com/) (Real company SQL questions)
-  * [StrataScratch](https://www.stratascratch.com/) (SQL & Python data engineering practice)
-  * [LeetCode](https://leetcode.com/) (Light DSA: Arrays & Hashing)
-
----
-
-## SECTION 5 — Enterprise-Grade Portfolio Projects
-
-### 5.1 Project 1: Multi-Source Fintech Batch Ingestion & Analytics Platform
-* **Business Problem**: A wealth advisory platform needs to consolidate transactions from on-premise transactional databases (PostgreSQL) and external partner APIs. Transactions must be deduplicated, formatted to parquet, processed via a medallion architecture on Google Cloud Platform, and modeled inside BigQuery for daily finance audit reports.
-
-```
-Ingestion (Python/GCS) ──> Processing (Dataproc/PySpark) ──> Warehouse (BigQuery) ──> Model & Quality (dbt)
-Orchestration: Apache Airflow (Cloud Composer)
-CI/CD: GitHub Actions (Linter + pytest + dbt compile)
+```mermaid
+flowchart LR
+    A[PostgreSQL or synthetic API] --> B[Python ingestion]
+    B --> C[GCS landing / Parquet]
+    C --> D[BigQuery Bronze]
+    D --> E[BigQuery Silver and Gold]
+    F[Airflow DAG] -. orchestrates .-> B
+    F -. orchestrates .-> D
+    E --> G[Reconciliation and quality checks]
 ```
 
-* **Folder Structure**:
-```
-fintech-batch-pipeline/
-├── .github/workflows/
-│   └── ci.yml
-├── airflow/
-│   ├── dags/
-│   │   └── daily_fintech_etl.py
-│   └── config/
-├── ingestion/
-│   ├── extract_postgres.py
-│   ├── extract_api.py
-│   └── utils.py
-├── spark/
-│   ├── bronze_to_silver.py
-│   └── silver_to_gold.py
-├── dbt_project/
-│   ├── models/
-│   │   ├── staging/
-│   │   └── marts/
-│   └── dbt_project.yml
-├── tests/
-│   └── test_ingest.py
-├── requirements.txt
-└── Dockerfile
-```
-* **Implementation Phases**:
-  1. **Phase 1: Ingest**: Python script extracts data from PostgreSQL using batched cursors, converts it to Snappy-compressed Parquet using PyArrow, and uploads to GCS landing buckets partitioned by `yyyy-mm-dd`.
-  2. **Phase 2: Spark Processing**: Ephemeral Dataproc Serverless PySpark job reads GCS Bronze Parquet, schema-casts columns, removes duplicates based on transaction transaction-id, and writes partitioned output to Silver GCS.
-  3. **Phase 3: BigQuery Load & dbt Model**: Load GCS Silver to BigQuery. Run dbt models generating transactional summaries (Gold layer), executing schema tests and relationships check.
-  4. **Phase 4: Orchestrate**: Wrap the entire workflow in an Airflow DAG with alert tasks triggers on failures.
-* **Technology Stack**: Python, PostgreSQL, GCS, Dataproc, BigQuery, dbt Core, Airflow, GitHub Actions, Looker Studio.
-* **Deployment**: Deploy pipeline scripts to GCP GCS, register Airflow DAGs with Cloud Composer environment.
-* **Resume Bullet Points**:
-  * Designed and built a multi-source GCP batch data pipeline ingesting over 10M+ transaction records daily from PostgreSQL and REST APIs, orchestrated by Apache Airflow.
-  * Optimized BigQuery query performance and costs by implementing date partitioning and clustering by transactional entity ID, reducing query execution costs by 35%.
-  * Integrated dbt models with automatic schema and null validations in GitHub Actions, stopping bad data payloads from hitting the production BigQuery Marts.
-* **Interview Questions**:
-  * *Why did you choose Dataproc over Dataflow for batch processing?* (Cost efficiency of ephemeral cluster runs, compatibility with Spark).
-  * *How did you handle API token expiration and rate limits in Python?* (Using connection wrappers and retry wrappers from the `tenacity` library).
-  * *How does your pipeline handle late-arriving records for previous days?* (Idempotent runs that scan specific date partition ranges and overwrite partition blocks).
+**Build in days 78–84.** Use least-privilege IAM where feasible, partitioning/clustering where justified, incremental `MERGE`, monitoring and key-level reconciliation. Cloud costs must be controlled; a local mock plus documented cloud execution is acceptable if budget blocks a full deployment, but state clearly what actually ran.
+
+**Required evidence:** architecture, sanitized commands/configuration, DAG, SQL, tests, sample outputs, replay demonstration, permission troubleshooting notes, cost/limitations note.
+
+**Interview prompts:** How would you prevent missing payments? Why choose GCS as a landing layer? How would a CMEK permission failure be diagnosed? How do you backfill yesterday's data safely?
+
+### 5.4 Project acceptance gate
+
+- [ ] Code can be run using documented commands.
+- [ ] No secrets or proprietary data in repository.
+- [ ] Synthetic test data and expected results included.
+- [ ] Duplicate/missing/null handling defined and tested.
+- [ ] At least one intentional failure and recovery demonstrated.
+- [ ] Reconciliation output attached.
+- [ ] Limitations and actual measurements disclosed.
+- [ ] Can explain design choices without notes.
 
 ---
 
-### 5.2 Project 2: Real-time Wealth Transaction Fraud & Market Feed Lakehouse
-* **Business Problem**: Transaction processors need to run near real-time calculations checking if transaction amounts exceed historic averages by a threshold percentage within a 5-minute window to identify fraudulent activities.
+## SECTION 6 — Targeted Interview Preparation
 
-```
-Stream (Python Kafka Producer) ──> Processing (Spark Streaming on Databricks) ──> Delta Lake (Silver/Gold)
-Serving: Tableau / BI dashboard
-```
+### 6.1 SQL
 
-* **Folder Structure**:
-```
-wealth-realtime-lakehouse/
-├── docker/
-│   └── docker-compose.yml (Kafka setup)
-├── producer/
-│   ├── transaction_generator.py
-│   └── kafka_producer.py
-├── streaming/
-│   ├── databricks_ingest.py
-│   └── transformations.py
-├── models/
-│   └── delta_merge.py
-├── dashboards/
-└── tests/
-```
-* **Implementation Phases**:
-  1. **Phase 1: Stream Setup**: Spin up Kafka in Docker, write a python producer producing random financial transaction events.
-  2. **Phase 2: Databricks Streaming Ingest**: Spark Structured Streaming read connection from Kafka topic, parse JSON streams, write raw stream output to a Bronze Delta table with active checkpoints.
-  3. **Phase 3: Delta Transformation**: Ingest static customer profiles from GCS, perform stream-to-batch join, flag anomalies, and execute Delta `MERGE` to update the Silver/Gold tables.
-  4. **Phase 4: Compaction & Cleanup**: Configure Databricks schedule running `OPTIMIZE` and `VACUUM` queries to avoid the "small file problem" common in streaming.
-* **Technology Stack**: Kafka, PySpark Structured Streaming, Databricks Community Edition, Delta Lake, GCS, Tableau.
-* **Deployment**: Local Docker for Kafka brokers; Databricks workspace running the streaming clusters.
-* **Resume Bullet Points**:
-  * Architected a near-real-time streaming analytics lakehouse using PySpark Structured Streaming and Kafka, ingesting simulated market feeds at 1,000 events/second.
-  * Solved the "small file problem" on Delta Lake streams by orchestrating weekly compaction OPTIMIZE jobs, improving downstream query latency by 45%.
-  * Implemented stateful stream-to-batch joins on Databricks to flag outlier transactions, writing results to Delta tables with Delta log transactions rollback guarantees.
-* **Interview Questions**:
-  * *How does Delta Lake guarantee ACID compliance?* (Through the Delta Transaction Log, maintaining atomic logs of all parquet commits).
-  * *How do you manage Streaming checkpointing and recovery?* (Using GCS bucket checkpoint paths to store offset logs. If cluster stops, it recovers from the last processed offset).
-  * *What is the difference between Z-Ordering and Partitioning?* (Partitioning creates separate physical folders; Z-Ordering re-orders file contents to place similar data points in same files, avoiding folders proliferation).
+Latest row per entity, many-to-many joins, deduplication, window functions, anti-joins, transaction boundaries, index trade-offs, query plans. **Weekly:** one unseen query solved from a blank editor.
+
+### 6.2 Python
+
+Collections, generators versus lists, functions, modules, exceptions, cursor batching, testing, logging, complexity. **Weekly:** one small code exercise without pandas or copied code.
+
+### 6.3 PySpark
+
+Driver/executor architecture, lazy evaluation, narrow/wide transformations, shuffle, skew, broadcast, partitioning, Spark UI and AQE. **Weeks 6–7:** explain the execution plan of your own code.
+
+### 6.4 GCP and BigQuery
+
+Service agent permissions, CMEK roles, GCS access, partitions/clusters, `MERGE`, cost controls, reconciliation and auditability. **Week 9:** answer one realistic incident-response scenario.
+
+### 6.5 Airflow and Docker
+
+Scheduler and DAG runs, retries, backfills, idempotency, task dependencies, XCom size limits, service DNS versus localhost. **Weeks 5 and 8:** reproduce a failure and explain the fix.
+
+### 6.6 System design
+
+Follow: **requirements → scale/SLAs → ingestion → storage → processing → serving → quality → recovery → security → cost → trade-offs**. Practice a batch payment reconciliation system and an activity-log analytics system.
+
+### 6.7 Behavioral STAR
+
+Prepare truthful stories about a production incident, ownership, disagreement, learning, a successful migration and a mistake. Use only real metrics that you can substantiate.
 
 ---
 
-## SECTION 6 — Targeted Interview Preparation Plan
+## SECTION 7 — Communication and Interview Delivery
 
-### 6.1 Advanced SQL Prep
-* **Drill Patterns**:
-  * Deduplication: `ROW_NUMBER() OVER (PARTITION BY id ORDER BY timestamp DESC)` where row = 1.
-  * Window Functions: `LAG`, `LEAD`, moving averages, rolling sums.
-  * Gaps and Islands: Grouping sequential rows into islands using row number differences.
-  * Query Plans: How to read execution plans (scan costs, join types).
-* **Practice Cadence**: Spend 20 minutes daily on DataLemur solving hard window function problems.
+**Daily (5–10 minutes inside the study budget):** Explain what your code does, why you chose the design, what breaks and how you would detect it. Use simple, precise English; avoid memorized definitions without examples.
 
-### 6.2 Python OOP & Structs Prep
-* **Drill Patterns**:
-  * Building Extractor/Loader base classes with child database-specific classes.
-  * Mocking API responses using `unittest.mock` during testing.
-  * Big-O complexity analysis for basic data structures (Dict lookups = $O(1)$, List searches = $O(n)$).
-
-### 6.3 PySpark Prep (FAANG Weight)
-* **Drill Patterns**:
-  * Re-write standard transformations using DataFrame API.
-  * Explain exactly how shuffling happens during wide transformations.
-  * Describe how to debug memory issues (Executor OOM) from the Spark UI.
-
-### 6.4 GCP & Cloud Storage Prep
-* **Drill Patterns**:
-  * Explaining how service accounts are authenticated via key JSONs or metadata tokens.
-  * BigQuery Partition pruning: Using `WHERE date_col = 'yyyy-mm-dd'` to minimize slots allocation.
-
-### 6.5 Airflow Prep
-* **Drill Patterns**:
-  * Standard recovery steps when a pipeline task fails at 3 AM.
-  * Understanding how scheduling runs: how `start_date` and `execution_date` interact.
-
-### 6.6 Databricks & Delta Prep
-* **Drill Patterns**:
-  * What is time-travel? (Querying `AS OF VERSION X` from metadata logs).
-  * Writing Delta MERGE scripts for SCD Type 2 upsert calculations.
-
-### 6.7 Data System Design Framework
-Always answer system design prompts using this structured approach:
-1. **Clarify functional & non-functional requirements**: Ask about scale (GB/day), ingestion frequency (batch vs real-time), target latency, and budget constraints.
-2. **Design Ingestion**: Choose Kafka/PubSub for stream, Python script/Airflow operators for batch.
-3. **Storage & Formats**: Choose GCS/S3, Parquet (Snappy-compressed) with date partitions.
-4. **Compute Layer**: Choose Spark (Dataproc/Databricks) for heavy aggregations, dbt for SQL transforms.
-5. **Serving Layer**: Choose BigQuery/Snowflake for data analysts, Redis for low-latency APIs.
-6. **Data Quality & Recovery**: Explain testing (dbt tests), monitoring (Composer alerts), and data replay capability (Kafka offsets reset).
-
-### 6.8 Behavioral prep (STAR Stories)
-Rehearse these stories:
-* **Story 1 (Achievement)**: Ingesting 154GB database to BigQuery, overcoming scaling errors.
-* **Story 2 (Conflict)**: Disagreeing with an engineering manager on query optimization, resolving with data metrics.
-* **Story 3 (Failure)**: Causing a pipeline timeout due to large batch size, implementing pagination to fix.
+**Weekly:** Record a 2–4-minute walkthrough of your most difficult exercise. Answer an interview question without reading notes, then identify missing concepts. Do not upload recordings containing company information.
 
 ---
 
-## SECTION 7 — Communication & Interview Delivery Improvement Plan
+## SECTION 8 — Weekly Milestones, Scores and Progress Tracker
 
-### 7.1 Daily Exercises (15 Minutes)
-* **First 5 min**: The "Rubber Duck" explainer. Explain a technical topic (e.g. lazy evaluation, broadcast join) out loud in English as if teaching a beginner.
-* **Next 5 min**: Read a paragraph from *Designing Data-Intensive Applications* out loud, mimicking the pace and stress.
-* **Final 5 min**: Vocabulary building. Practice integrating industry-standard terms: "idempotency", "bottleneck", "distributed partition", "data quality metrics".
+### 8.1 Progress dashboard
 
-### 7.2 Weekly Exercises
-* **Spoken Walkthroughs**: Record a 4-minute video walk-through of your portfolio projects README files. Re-watch the video and note filler words ("like", "umm", "basically").
-* **Mock Interviews**: Run a self-mock interview session where you code and speak your reasoning simultaneously.
+| Metric | Baseline |
+|---|---|
+| Reviewed daily implementations | **0 / 90** |
+| Weekly assessments passed | **0 / 12** |
+| Portfolio projects independently demonstrated | **0 / 3** |
+| Diagnostic written score | **47 / 100 (normalized)** |
+| Python independent coding diagnostic | **Pending** |
+| Day 1 | **Pending** |
 
-### 7.3 Recording Strategy
-Keep a private Google Drive folder with dated voice notes of your technical explanations. Focus on lowering speed of delivery. Clear, structured, slower speech is far more impressive than rushed, jumbled explanations.
+### 8.2 Assessment rubric
 
----
+| Dimension | Points |
+|---|---:|
+| Correctness and edge cases | 30 |
+| Independent coding | 25 |
+| Debugging and root cause | 20 |
+| Testing and engineering quality | 15 |
+| Technical explanation | 10 |
+| **Total** | **100** |
 
-## SECTION 8 — Weekly Milestones & Outcomes Tracker
+**Pass gate:** ≥75/100 **and** no critical silent data loss or payment duplication. Weak topics remain open until demonstrated, even if the calendar advances.
 
-* **Week 1 Milestone**: `python-de-foundations` Git repo is live, containing clean class-based ETL.
-* **Week 2 Milestone**: Automated API ingestion script running in a Docker container, uploading Parquet files to GCS.
-* **Week 3 Milestone**: Jupyter notebook containing 10 SQL queries correctly translated to PySpark API with Spark execution plans analyzed.
-* **Week 4 Milestone**: PySpark JDBC extractor script running parallel database connections.
-* **Week 5 Milestone**: Databricks notebook with Delta Lake MERGE updates and compaction optimizations configured.
-* **Week 6 Milestone**: Date-partitioned BigQuery tables loaded with historical logs via Dataproc Serverless.
-* **Week 7 Milestone**: Airflow Astro CLI project set up with automated task failure retries.
-* **Week 8 Milestone**: **Project 1 finalized**, repository clean, Looker dashboard complete.
-* **Week 9 Milestone**: Kafka Docker running with Python stream producer and PySpark stream consumer.
-* **Week 10 Milestone**: **Project 2 finalized**, Delta Lake Lakehouse built on Databricks, README polished.
-* **Week 11 Milestone**: Complete scored technical mock interview session recorded, system design framework memorized.
-* **Week 12 Milestone**: Metric-driven resume finalized, LinkedIn headline optimized, first 10 job applications submitted.
+### 8.3 Weekly review template
+
+```markdown
+### Week XX — Review
+- Days completed with evidence:
+- What I implemented without assistance:
+- Correctness (0–30):
+- Independent coding (0–25):
+- Debugging (0–20):
+- Quality/testing (0–15):
+- Explanation (0–10):
+- Total /100:
+- Critical data-integrity issue? Yes/No
+- Strongest skill:
+- Top 3 gaps:
+- Fixes next week:
+- Git commit / PR links:
+```
 
 ---
 
 ## SECTION 9 — Multi-Tier Revision Strategy
 
-```
-  ┌───────────────────────────────────────────────────────────┐
-  │                                                           │
-  ▼                                                           │
-Daily Revision (15m) ──> Weekly Revision (45m) ──> Monthly Review (2h)
-```
+- **Daily (5–10 minutes):** review yesterday's error and explain today's code in three sentences.
+- **Weekly (review day):** redo one task without notes, then score against the rubric.
+- **Monthly (days 28, 56, 84):** rerun an older project or task, compare outputs and revisit weakest diagnostic areas.
+- **Spaced recall:** revisit Python generators, Linux disk diagnostics, Spark shuffle/skew and idempotency repeatedly until they can be explained and implemented.
 
-* **Daily Revision (15 Minutes)**: End of study session. Open a notepad and write a 3-sentence summary of what you learned. Review yesterday's code.
-* **Weekly Revision (45 Minutes)**: Tuesday. Redo the hardest coding task of the week from scratch on a blank editor. Update the tracker log.
-* **Monthly Revision (2 Hours)**: End of Week 4, 8, and 12. Run a full conceptual review of previous modules, re-record project walkthroughs, and re-score technical confidence metrics.
+### Daily evidence template
+
+```markdown
+### Day XX — YYYY-MM-DD
+- Planned task:
+- Actual time spent:
+- Code written independently:
+- Command to reproduce:
+- Expected output:
+- Actual output:
+- Test cases passed/failed:
+- Error, hypothesis and root cause:
+- What I can explain without notes:
+- Commit link:
+- Status: Pending / In progress / Needs revision / Reviewed
+```
 
 ---
 
-## SECTION 10 — Job Switch & Market Outreach Strategy
+## SECTION 10 — Job Switch, GitHub and Portfolio Strategy
 
-### 10.1 Portfolio Presentation
-Your GitHub is your primary credential. Pin the two portfolio projects at the top of your GitHub profile. Write clean README files with:
-* System architecture diagrams (use Excalidraw or draw.io).
-* Setup commands (`docker-compose up -d`, `pip install -r requirements.txt`).
-* Table schemas (columns, datatypes).
-* Clear performance metrics (e.g. "Ingested 10 million transactions in 4.2 minutes").
+### 10.1 Repository structure
 
-### 10.2 LinkedIn Positioning
-Update your LinkedIn Profile as follows:
-* **Headline**: `Cloud Data Engineer | PySpark | Apache Airflow | GCP | Databricks | dbt`
-* **About Section**:
-  > "Data Engineer with 2 years of experience specializing in building scalable batch and streaming pipelines. Managed a 154GB PostgreSQL to BigQuery migration, resolving query bottlenecks. Proficient in PySpark distributed processing, Airflow orchestration, and Delta Lake Lakehouse architectures."
-* **Featured Section**: Link your two GitHub projects with descriptive call-outs.
+```text
+DE-learning-path/
+├── README.md
+├── archive/
+│   └── old-roadmap.md
+├── progress/
+│   ├── daily-log.md
+│   └── weekly-reviews/
+├── assessments/
+├── linux/
+├── sql/
+├── python/
+├── git/
+├── docker/
+├── spark/
+├── airflow/
+├── gcp/
+├── aws/
+├── delta/
+├── architecture/
+├── projects/
+│   ├── 01-python-postgres-etl/
+│   ├── 02-pyspark-processing/
+│   └── 03-gcp-end-to-end/
+└── interviews/
+```
 
-### 10.3 Referral & Recruitment Outreach Plan
-Do not rely on clicking "Easy Apply" on LinkedIn. Apply via referrals:
-* **Step 1**: Find engineers or engineering managers at target companies (Tiger Analytics, Fractal, Tredence) on LinkedIn.
-* **Step 2**: Send a short, professional connection request:
-  > "Hi [Name], I'm a Data Engineer focusing on PySpark, GCP, and Airflow pipelines. I saw your team works on large-scale analytics platforms. I recently built a GCP batch ingestion platform (using Dataproc, Airflow, and dbt) and would love to connect and chat about your data engineering patterns. If you have open roles on your team, I'd appreciate a referral. Thanks, Ratan."
-* **Step 3**: Track all applications in a spreadsheet (Company, Position, Date Applied, Contact Person, Status).
+> The directories above are **proposed**, not proof of existing work. Create them as deliverables become real. Preserve the June 2026 roadmap as `archive/old-roadmap.md` before replacing the root README.
 
-### 10.4 Target Metrics
-* **Total Applications**: 60 (30 Primary, 30 Secondary).
-* **Weekly Referral Requests**: 10.
-* **Target Recruiter Connects**: 15.
+### 10.2 Portfolio presentation
+
+For each project include: problem statement, diagram, stack and why, setup commands, synthetic schemas, test instructions, failure recovery, measured outputs, trade-offs and honest limitations. Never put company data or credentials on GitHub.
+
+### 10.3 Resume and applications
+
+Begin polishing your resume and explaining real professional achievements during the final phase. ₹12–15 LPA is a **target**, not a prediction. Tailor applications to demonstrated skills. Do not claim hands-on Kafka, Delta or Airflow production experience solely because they appear in this study plan.
+
+### 10.4 Day 1 — Start here
+
+**12 November 2026: independent Python payment-validation challenge.** Given synthetic payment records, deduplicate by `payment_id` keeping the first record, remove `None` amounts, calculate total and count, print cleaned records, and explain your approach. Use **core Python only** (no pandas). Review code and tests before checking the day complete.
+
+---
+
+**Commit policy:** A tutorial watched is *learning time*, not *completed implementation*. A checkbox becomes `[x]` only after a reproducible artifact and review. **90 days is a training window, not a guarantee of job readiness.**
